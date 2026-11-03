@@ -1,0 +1,108 @@
+name: iOS Build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-ios:
+    name: Build unsigned IPA
+    runs-on: macos-latest
+    timeout-minutes: 90
+
+    env:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+      UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Check Unity license secret
+        shell: bash
+        run: |
+          if [ -z "${UNITY_LICENSE:-}" ]; then
+            echo "::error::缺少 UNITY_LICENSE secret。请按 Docs/CI.md 生成 .ulf，并配置 UNITY_LICENSE / UNITY_EMAIL / UNITY_PASSWORD。"
+            exit 1
+          fi
+
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: 群星海战/Library
+          key: Library-iOS-${{ hashFiles('群星海战/Assets/**', '群星海战/Packages/**', '群星海战/ProjectSettings/**') }}
+          restore-keys: |
+            Library-iOS-
+            Library-
+
+      # 第一步：Unity 导出 Xcode 工程到 build/iOS
+      - name: Build Unity iOS Xcode project
+        uses: game-ci/unity-builder@v4
+        with:
+          projectPath: 群星海战
+          targetPlatform: iOS
+          buildsPath: build
+          allowDirtyBuild: true
+          cacheUnityInstallationOnMac: true
+
+      # 第二步：用 xcodebuild 编出未签名 .app，再打包成未签名 IPA。
+      # 未签名 IPA 交给 AltStore / Sideloadly 用免费 Apple ID 自签。
+      - name: Build unsigned IPA
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -d "build/iOS/Unity-iPhone.xcodeproj" ]; then
+            XCODE_DIR="build/iOS"
+          elif [ -d "群星海战/build/iOS/Unity-iPhone.xcodeproj" ]; then
+            XCODE_DIR="群星海战/build/iOS"
+          else
+            echo "::error::找不到 Unity-iPhone.xcodeproj，请检查 game-ci 的 buildsPath 输出。"
+            exit 1
+          fi
+
+          DERIVED="$RUNNER_TEMP/DerivedData"
+
+          xcodebuild \
+            -project "$XCODE_DIR/Unity-iPhone.xcodeproj" \
+            -scheme Unity-iPhone \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$DERIVED" \
+            build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            PROVISIONING_PROFILE_SPECIFIER=""
+
+          APP_PATH="$(ls -d "$DERIVED/Build/Products/Release-iphoneos/"*.app | head -n 1)"
+          test -n "$APP_PATH"
+
+          mkdir -p "$RUNNER_TEMP/Payload"
+          cp -R "$APP_PATH" "$RUNNER_TEMP/Payload/"
+
+          cd "$RUNNER_TEMP"
+          ditto -c -k --sequesterRsrc --keepParent Payload StellarSea-unsigned.ipa
+
+      - name: Upload unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: StellarSea-unsigned-ipa
+          path: ${{ runner.temp }}/StellarSea-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 14

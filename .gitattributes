@@ -1,0 +1,31 @@
+# 统一换行，避免 Windows / macOS runner 之间产生无意义 diff
+* text=auto
+
+# Unity YAML 文本资产
+*.unity text
+*.prefab text
+*.asset text
+*.meta text
+*.mat text
+*.anim text
+*.controller text
+*.physicMaterial text
+*.physicsMaterial2D text
+*.shader text
+*.cginc text
+*.hlsl text
+
+# 二进制资产
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.tif binary
+*.exr binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+*.fbx binary
