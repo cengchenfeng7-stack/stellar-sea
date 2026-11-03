@@ -2,8 +2,10 @@
 
 CI 在 macOS runner 上做两步：
 
-1. `game-ci/unity-builder` 用 Unity 导出 Xcode 工程到 `build/iOS`。
+1. `game-ci/unity-builder@v6`（新版 CLI 封装）用 Unity 导出 Xcode 工程到 `build/iOS`。
 2. `xcodebuild` 以 `CODE_SIGNING_ALLOWED=NO` 编出未签名 `.app`，再打包成未签名 `.ipa`。
+
+> 必须用 v6。v4 只认 `UNITY_LICENSE` / `UNITY_SERIAL`，不支持 Unity 6 的账号激活，会直接报 `Missing Unity License File`。
 
 未签名 IPA 不依赖证书和描述文件，下载后用 AltStore / Sideloadly 以免费 Apple ID 自签安装。免费 Apple ID 的签名约 7 天过期，到期重签即可。
 

@@ -56,12 +56,16 @@ jobs:
             Library-
 
       # 第一步：Unity 导出 Xcode 工程到 build/iOS
+      # v6 是新版 CLI 的薄封装，支持 Unity 6 的 Personal 账号激活
+      # （UNITY_EMAIL + UNITY_PASSWORD，不再依赖 .ulf）。
       - name: Build Unity iOS Xcode project
-        uses: game-ci/unity-builder@v4
+        uses: game-ci/unity-builder@v6
         with:
           projectPath: 群星海战
           targetPlatform: iOS
           buildsPath: build
+          unityVersion: auto
+          cliVersion: v0.1.72
           allowDirtyBuild: true
           cacheUnityInstallationOnMac: true
 
