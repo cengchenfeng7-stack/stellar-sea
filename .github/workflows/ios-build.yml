@@ -31,13 +31,20 @@ jobs:
           fetch-depth: 0
           lfs: true
 
-      - name: Check Unity license secret
+      # Unity 6 的 Personal 许可证不再生成 .ulf，CI 走 UNITY_EMAIL + UNITY_PASSWORD
+      # 账号激活；如果手上有旧版 .ulf，也可以额外配置 UNITY_LICENSE。
+      - name: Check Unity license secrets
         shell: bash
         run: |
-          if [ -z "${UNITY_LICENSE:-}" ]; then
-            echo "::error::缺少 UNITY_LICENSE secret。请按 Docs/CI.md 生成 .ulf，并配置 UNITY_LICENSE / UNITY_EMAIL / UNITY_PASSWORD。"
+          if [ -n "${UNITY_LICENSE:-}" ] || [ -n "${UNITY_SERIAL:-}" ]; then
+            echo "使用许可证文件/序列号激活。"
+            exit 0
+          fi
+          if [ -z "${UNITY_EMAIL:-}" ] || [ -z "${UNITY_PASSWORD:-}" ]; then
+            echo "::error::缺少 Unity 许可证凭据。请在仓库 Settings > Secrets and variables > Actions 配置 UNITY_EMAIL 与 UNITY_PASSWORD（Unity 账号需关闭两步验证）。详见 Docs/CI.md。"
             exit 1
           fi
+          echo "使用 UNITY_EMAIL + UNITY_PASSWORD 激活。"
 
       - name: Cache Unity Library
         uses: actions/cache@v4

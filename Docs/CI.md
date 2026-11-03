@@ -9,28 +9,37 @@ CI 在 macOS runner 上做两步：
 
 没有 Mac 时的完整安装步骤见 [`Install-iPhone.md`](./Install-iPhone.md)。
 
-## 一次性准备：Unity 个人许可证
+## 一次性准备：Unity 许可证
 
-GameCI 需要三个 GitHub Secrets：
+Unity 6（本项目 `6000.3.27f1`）的 Personal 许可证由 Unity Licensing Client 管理，不再生成传统的 `Unity_lic.ulf`。本机对应文件是：
 
-| Secret | 内容 |
-|---|---|
-| `UNITY_LICENSE` | `Unity_lic.ulf` 文件的完整内容 |
-| `UNITY_EMAIL` | Unity 账号邮箱 |
-| `UNITY_PASSWORD` | Unity 账号密码 |
+```text
+C:\Users\<用户名>\AppData\Local\Unity\licenses\UnityEntitlementLicense.xml
+```
 
-生成 `.ulf`：
+这个文件绑定本机，不能直接给 CI 用。因此 CI 采用**账号激活**，只需要两个 GitHub Secrets：
 
-1. 在本机 Unity Hub 登录 Unity 账号。
-2. `Preferences > Licenses`，点 `Add`，选择 `Get a free personal license`。
-3. 确认许可证出现在列表后，找到文件：
-   - Windows：`C:\ProgramData\Unity\Unity_lic.ulf`
-   - macOS：`/Library/Application Support/Unity/Unity_lic.ulf`
-   - Linux：`~/.local/share/unity3d/Unity/Unity_lic.ulf`
-4. 把文件内容完整复制到 GitHub 仓库的 `Settings > Secrets and variables > Actions > UNITY_LICENSE`。
-5. 再添加 `UNITY_EMAIL` 与 `UNITY_PASSWORD`。
+| Secret | 内容 | 必需 |
+|---|---|---|
+| `UNITY_EMAIL` | Unity 账号邮箱 | 是 |
+| `UNITY_PASSWORD` | Unity 账号密码 | 是 |
+| `UNITY_LICENSE` | 旧版 `.ulf` 全文（如果有） | 否 |
+| `UNITY_SERIAL` | Plus / Pro 序列号 | 否 |
 
-> 如果使用 Plus / Pro，可不配 `UNITY_LICENSE`，改配 `UNITY_SERIAL`、`UNITY_EMAIL`、`UNITY_PASSWORD`；workflow 已同时传入 `UNITY_SERIAL`。
+配置位置：
+
+```text
+https://github.com/cengchenfeng7-stack/stellar-sea/settings/secrets/actions
+```
+
+### 账号要求
+
+- Unity 账号需先在本机 Unity Hub 登录并领取过 Personal 许可证。
+- **关闭两步验证（2FA）**。CI 无法完成手机验证码，开启 2FA 会直接激活失败。
+- 密码建议只用大小写字母和数字，避免特殊字符（GameCI 已知问题）。
+- 第一次从 GitHub runner 登录时，Unity 可能发一封「新设备」确认邮件；点确认后重新跑一次 workflow。
+
+> 如果以后买了 Plus / Pro，改配 `UNITY_SERIAL` 即可，workflow 已同时传入。
 
 ## 触发构建
 
@@ -41,9 +50,10 @@ GameCI 需要三个 GitHub Secrets：
 
 ## 已知注意点
 
+- 仓库根目录是 `F:\群星海战`，Unity 工程在 `群星海战/` 子目录。
 - `projectPath` 必须是 `群星海战`，不是仓库根目录。
 - 缓存路径是 `群星海战/Library`。
 - Unity 版本从 `群星海战/ProjectSettings/ProjectVersion.txt` 读取，当前为 `6000.3.27f1`。
 - 首次构建会安装 Unity Hub 和 Editor，耗时较长；`cacheUnityInstallationOnMac` 会缓存安装。
 - 免费 Apple ID 自签有 7 天有效期与同时安装数量限制。
-- 如果 CI 报许可证激活失败，优先检查 `.ulf` 是否完整、账号是否开启了两步验证、密码是否含特殊字符。
+- 如果 CI 报许可证激活失败，按顺序检查：2FA 是否关闭、密码是否含特殊字符、Unity 是否发了新设备确认邮件、账号是否领取过 Personal 许可证。

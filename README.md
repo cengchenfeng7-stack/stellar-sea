@@ -20,11 +20,17 @@
 
 Windows 只做 Editor 验证；iOS 构建走 GitHub Actions 的 macOS runner，**本机不需要 Mac**。
 
+## 仓库
+
+- GitHub：`https://github.com/cengchenfeng7-stack/stellar-sea`（私有）
+- 默认分支：`main`
+- 推送即触发 iOS 构建。
+
 ## 当前状态
 
 - M0 进行中。
 - 工程已从 3D URP 模板重建为干净的 Universal 2D 工程，旧的 3D 模板资产与 AI/导航等无关包已移除。
-- iOS workflow 已补 `projectPath`、Unity 许可证配置与未签名 IPA 导出；还需在 GitHub 配置 secrets 后实测。
+- 代码已推送到 GitHub，iOS workflow 已实际触发过；当前停在 Unity 许可证 secrets 未配置。
 - `Config_CSV/`、`Tools/` 仍待建设；`Docs/CI.md` 与 `Docs/Install-iPhone.md` 已写。
 
 没有 Mac 也能玩：
