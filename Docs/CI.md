@@ -50,6 +50,20 @@ https://github.com/cengchenfeng7-stack/stellar-sea/settings/secrets/actions
 
 构建完成后，在 run 的 Artifacts 里下载 `StellarSea-unsigned-ipa`。
 
+## 已验证
+
+| 项目 | 结果 |
+|---|---|
+| Unity 许可证账号激活 | 通过（`UNITY_EMAIL` + `UNITY_PASSWORD`） |
+| Unity 导出 Xcode 工程 | 通过 |
+| `xcodebuild` 未签名构建 | 通过 |
+| IPA 上传 artifact | 通过，约 48 MB |
+| Bundle ID | `com.stellarsea.qunxinghaizhan` |
+| 显示名称 | 群星海战（`CFBundleDisplayName`） |
+| 最低 iOS | 15.0 |
+
+产物结构：`StellarSea-unsigned.ipa/Payload/ProductName.app`。内部可执行文件叫 `ProductName` 是 Unity 对非 ASCII 产品名的默认处理，不影响安装后的显示名。
+
 ## 已知注意点
 
 - 仓库根目录是 `F:\群星海战`，Unity 工程在 `群星海战/` 子目录。

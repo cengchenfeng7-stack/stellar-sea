@@ -25,7 +25,9 @@ CI 已经配置好，见 `.github/workflows/ios-build.yml`。它会在 macOS run
 前置条件：
 
 - 代码推到 GitHub。
-- 仓库配置 `UNITY_LICENSE`、`UNITY_EMAIL`、`UNITY_PASSWORD` 三个 secrets，见 [`CI.md`](./CI.md)。
+- 仓库配置 `UNITY_EMAIL`、`UNITY_PASSWORD` 两个 secrets（旧版 `.ulf` 可选），见 [`CI.md`](./CI.md)。
+
+> 公开仓库的 Actions 免费。本项目已实际跑通：Unity 导出 Xcode 工程 → `xcodebuild` 未签名构建 → 上传 `StellarSea-unsigned-ipa`，全程约 20 分钟。
 
 > GitHub Actions 额度：公开仓库免费；私有仓库每月 2000 分钟，macOS runner 按 10 倍计费，约等于 200 分钟/月。个人项目每个里程碑构建一次通常够用；如果不够，可以把仓库设为公开或购买额外分钟。
 
@@ -43,6 +45,7 @@ CI 已经配置好，见 `.github/workflows/ios-build.yml`。它会在 macOS run
 
 ### 步骤
 
+0. 在 GitHub 上打开最近一次成功的 `iOS Build` run，页面底部 `Artifacts` 里下载 `StellarSea-unsigned-ipa.zip`，解压得到 `StellarSea-unsigned.ipa`。
 1. 在 iPhone 上开启开发者模式：
    - 设置 → 隐私与安全性 → 开发者模式 → 打开。
    - 重启手机，解锁后确认开启。

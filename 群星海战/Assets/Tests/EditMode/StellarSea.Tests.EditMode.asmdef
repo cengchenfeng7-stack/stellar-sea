@@ -3,6 +3,7 @@
     "rootNamespace": "StellarSea.Tests.EditMode",
     "references": [
         "StellarSea.Data",
+        "StellarSea.Battle",
         "Unity.Newtonsoft.Json",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"

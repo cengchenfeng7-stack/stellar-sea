@@ -33,8 +33,9 @@ Windows 只做 Editor 验证；iOS 构建走 GitHub Actions 的 macOS runner，*
 - `Config_CSV/`：20 张表 / 631 行初始值；`node Tools/validate_config.mjs` 全部通过。
 - `Tools/economy_sim.mjs`：30 天经济模拟，第 7/14/30 天目标全部命中，无告警。
 - `Docs/wireframes/`：14 张界面线框图（SVG）。
-- Unity 侧：存档系统（含 schema 迁移与未知字段保留）+ 配置表运行时/导入管线；EditMode 测试 10/10 通过。
-- iOS CI：Unity 许可证账号激活已跑通，Xcode 工程导出成功；未签名 IPA 打包在修路径后待验证。
+- Unity 侧：存档系统（含 schema 迁移与未知字段保留）+ 配置表运行时/导入管线；EditMode 测试 25/25 通过。
+- 战斗内核（`Assets/Scripts/Battle/`）：确定性 RNG、行动条、怒气/合击/旗舰技、护盾/嘲讽/持续伤害、30 回合超时；用初始 7 艘无养成实测通关第 1 章 1-10。
+- iOS CI：Unity 许可证账号激活、Xcode 工程导出、未签名 IPA 构建与 artifact 上传全部跑通（约 48 MB，Bundle ID `com.stellarsea.qunxinghaizhan`）。
 
 没有 Mac 也能玩：
 
