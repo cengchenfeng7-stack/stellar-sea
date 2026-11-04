@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#0B1B2B" stroke="#0B1B2B"/>
+<text x="20" y="44" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#E6F1FF" font-weight="700" text-anchor="start">结算</text>
+<text x="20" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">战斗后 · 星级 / 掉落 / 升级</text>
+<line x1="0" y1="78" x2="390" y2="78" stroke="#2A4A66" stroke-width="1"/>
+<text x="195" y="150" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="42" fill="#F2C14E" font-weight="700" text-anchor="middle">★★★</text>
+<text x="195" y="184" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#E6F1FF" font-weight="700" text-anchor="middle">战斗胜利</text>
+<text x="195" y="210" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">第 2-4 关 · 12 回合</text>
+<rect x="20" y="236" width="350" height="250" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="34" y="264" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#E6F1FF" font-weight="700" text-anchor="start">掉落</text>
+<text x="48" y="296" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="start">金币</text><text x="340" y="296" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="end">+1,240</text>
+<text x="48" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="start">经验书</text><text x="340" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="end">+6</text>
+<text x="48" y="364" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="start">材料</text><text x="340" y="364" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="end">+8</text>
+<text x="48" y="398" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="start">通用碎片</text><text x="340" y="398" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="end">+4</text>
+<text x="48" y="432" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="start">装备箱</text><text x="340" y="432" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="end">+1</text>
+<rect x="20" y="502" width="350" height="100" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="34" y="530" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="start">舰船升级</text>
+<text x="34" y="554" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">铁锚号 Lv.12 → Lv.13</text>
+<rect x="34" y="570" width="322" height="10" rx="5" fill="#173650" stroke="#2A4A66"/><rect x="34" y="570" width="231.84" height="10" rx="5" fill="#4FC3F7" stroke="#4FC3F7"/>
+<text x="34" y="596" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">经验 7,200 / 10,000</text>
+<rect x="20" y="630" width="170" height="50" rx="10" fill="#4FC3F7" stroke="#4FC3F7"/><text x="105" y="660" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#062033" font-weight="700" text-anchor="middle">再次挑战</text>
+<rect x="200" y="630" width="170" height="50" rx="10" fill="#12293F" stroke="#12293F"/><text x="285" y="660" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#4FC3F7" font-weight="700" text-anchor="middle">返回地图</text>
+<text x="195" y="712" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#5FD38D" font-weight="400" text-anchor="middle">首通奖励已领取 · 3★ 解锁扫荡</text>
+<line x1="0" y1="780" x2="390" y2="780" stroke="#2A4A66" stroke-width="1"/>
+<rect x="20" y="794" width="54" height="34" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="47" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#4FC3F7" font-weight="700" text-anchor="middle">主港</text>
+<rect x="94" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="121" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">推图</text>
+<rect x="168" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="195" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">贸易</text>
+<rect x="242" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="269" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">抽卡</text>
+<rect x="316" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="343" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">基地</text>
+</svg>

@@ -1,0 +1,6 @@
+﻿poolId,name,type,costDiamond,tenPullCost,ssRate,sRate,aRate,bRate,hardPitySS,softPityStartSS,hardPityS,hardPityA,upList,upChance,guaranteeUp,newbieCandidates,freeFirstTen,maxPulls,tenthGuarantee,description
+gacha_ship_standard,舰船常驻池,ship,150,1500,2,10,38,50,90,75,30,10,,0,0,,0,0,,常驻舰船池，无 UP
+gacha_ship_limited,舰船限定池,ship,150,1500,2,10,38,50,90,75,30,10,ship_red_04,50,1,,0,0,,限定舰船池，UP 为血鲨，歪一次后下一个 SS 必为 UP
+gacha_captain,舰长池,captain,150,1500,2,10,38,50,60,50,30,10,,0,0,,0,0,,舰长池，无 UP
+gacha_equip,装备箱池,equip,150,1500,2,10,38,50,50,42,30,10,,0,0,,0,0,,装备箱池，无限定
+gacha_newbie,新手池,ship,0,0,2,10,38,50,0,0,10,10,,0,0,ship_anchor_04|ship_blue_04|ship_green_03,1,10,S,一次性免费 10 连，第 10 抽必出 S 及以上，不占其他池计数

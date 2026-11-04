@@ -1,0 +1,8 @@
+﻿id,name,basePrice,unitWeight,volatility,dailyCapacity,description
+good_grain,粮食,20,1,0.1,500,低价值高容量，适合新手航线
+good_wood,木材,35,2,0.12,400,建筑材料
+good_iron,铁矿,60,3,0.15,300,重货，单位载重占用高
+good_silk,丝绸,120,1,0.18,200,轻货，利润稳定
+good_spice,香料,180,1,0.2,150,高波动轻货
+good_powder,火药,240,2,0.22,120,危险品，波动大
+good_arms,军械,400,3,0.25,80,最高价值，容量最小

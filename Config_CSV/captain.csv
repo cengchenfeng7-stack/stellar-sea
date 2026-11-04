@@ -1,0 +1,9 @@
+﻿id,name,faction,quality,passiveSkillId,enhanceSkillId,enhanceBonusLevel,role,description
+captain_anchor_01,霍克,anchor,S,skill_cap_anchor_01,skill_anchor_rage,1,主推,铁锚联邦 S 舰长（主推）
+captain_anchor_02,格雷,anchor,A,skill_cap_anchor_02,skill_anchor_rage,1,备选,铁锚联邦 A 舰长（备选）
+captain_blue_01,艾琳,blue,S,skill_cap_blue_01,skill_blue_rage,1,主推,蓝潮同盟 S 舰长（主推）
+captain_blue_02,海伦,blue,A,skill_cap_blue_02,skill_blue_rage,1,备选,蓝潮同盟 A 舰长（备选）
+captain_red_01,赤羽,red,S,skill_cap_red_01,skill_red_rage,1,主推,赤潮帝国 S 舰长（主推）
+captain_red_02,黑潮,red,A,skill_cap_red_02,skill_red_rage,1,备选,赤潮帝国 A 舰长（备选）
+captain_green_01,青岚,green,S,skill_cap_green_01,skill_green_rage,1,主推,翡翠共和国 S 舰长（主推）
+captain_green_02,森语,green,A,skill_cap_green_02,skill_green_rage,1,备选,翡翠共和国 A 舰长（备选）

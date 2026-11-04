@@ -1,0 +1,23 @@
+﻿id,type,name,conditionType,conditionValue,rewardDiamond,rewardGold,rewardItem,refresh,description
+task_daily_login,daily,每日登录,login,1,40,200,,daily,登录游戏
+task_daily_battle,daily,每日出击,battleWin,3,40,300,,daily,胜利 3 场战斗
+task_daily_trade,daily,每日出航,tradeDispatch,1,40,200,,daily,派出 1 次贸易船
+task_daily_idle,daily,每日收获,idleClaim,1,40,200,,daily,领取 1 次挂机收益
+task_daily_gacha,daily,每日招募,gachaPull,1,40,0,,daily,抽卡 1 次
+task_weekly_battle,weekly,每周出击,battleWin,15,200,1000,,weekly,本周胜利 15 场
+task_weekly_trade,weekly,每周贸易,tradeProfit,5000,200,0,,weekly,本周贸易累计利润 5000
+task_weekly_stage,weekly,每周推图,stageClear,5,200,0,,weekly,本周通关 5 个新节点
+task_trade_milestone_1,milestone,贸易里程碑·初航,tradeLevel,2,200,0,,milestone,贸易等级达到 2
+task_trade_milestone_2,milestone,贸易里程碑·常客,tradeLevel,4,200,0,,milestone,贸易等级达到 4
+task_trade_milestone_3,milestone,贸易里程碑·商队,tradeLevel,6,200,0,,milestone,贸易等级达到 6
+task_trade_milestone_4,milestone,贸易里程碑·远洋,tradeLevel,8,200,0,,milestone,贸易等级达到 8
+task_ach_first_boss,achievement,首个 BOSS,bossKill,1,100,0,blueprint:3,none,击败任意章节 BOSS
+task_ach_ch2,achievement,通关第 2 章,chapterClear,2,200,0,,none,通关第 2 章
+task_ach_ch3,achievement,通关第 3 章,chapterClear,3,300,0,,none,通关第 3 章
+task_ach_ch4,achievement,通关第 4 章,chapterClear,4,300,0,,none,通关第 4 章
+task_ach_ch5,achievement,通关第 5 章,chapterClear,5,300,0,,none,通关第 5 章
+task_ach_trade5,achievement,贸易等级 5,tradeLevel,5,200,0,,none,贸易等级达到 5
+task_ach_collect10,achievement,舰队扩充,shipCount,10,100,0,,none,拥有 10 艘战舰
+task_ach_pull50,achievement,招募 50 次,gachaTotal,50,150,0,,none,累计抽卡 50 次
+task_ach_pull100,achievement,招募 100 次,gachaTotal,100,200,0,,none,累计抽卡 100 次
+task_ach_ss3,achievement,三艘 SS,ssCount,3,250,0,,none,拥有 3 艘 SS 战舰

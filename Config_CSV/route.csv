@@ -1,0 +1,11 @@
+﻿id,fromPort,toPort,oneWayMinutes,riskPct,piratePower,baseFreight,minTradeLevel,isNewbie,description
+route_newbie,port_dawn,port_anchor,0.5,0,0,10,0,1,新手航线：往返 60 秒，风险 0
+route_dawn_anchor,port_dawn,port_anchor,30,5,800,50,0,0,起始安全航线
+route_dawn_blue,port_dawn,port_blue,45,8,1200,80,1,0,粮食换丝绸
+route_anchor_blue,port_anchor,port_blue,60,10,1600,120,2,0,铁矿换香料
+route_anchor_red,port_anchor,port_red,90,15,2400,180,3,0,军港航线，风险上升
+route_blue_green,port_blue,port_green,120,12,2800,220,4,0,丝绸换粮食
+route_red_green,port_red,port_green,150,18,3600,260,5,0,火药换粮食
+route_green_mist,port_green,port_mist,180,20,4400,300,6,0,远洋走私线
+route_mist_starfall,port_mist,port_starfall,210,24,5600,360,7,0,高风险高利润
+route_starfall_abyss,port_starfall,port_abyss,240,30,7200,420,9,0,终局航线，往返 8 小时

@@ -1,0 +1,4 @@
+﻿id,name,type,triggerRate,weight,effectType,effectValue,durationRounds,description
+event_storm,风暴,storm,15,40,fleetHpLossPct,20,0,下一场战斗全队耐久 −20%
+event_pirate,海盗,pirate,15,40,extraBattle,1,0,追加一场海盗战斗，胜利后按 loot_event 掉落
+event_treasure,宝藏,treasure,15,20,grantLoot,1,0,直接获得 loot_treasure 掉落

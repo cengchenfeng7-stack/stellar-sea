@@ -1,0 +1,5 @@
+﻿id,skillId,shipA,shipB,priority,oncePerBattle,description
+combo_anchor,skill_combo_anchor,ship_anchor_03,ship_anchor_04,1,1,重锤 + 铁壁：铜墙铁壁
+combo_blue,skill_combo_blue,ship_blue_03,ship_blue_04,2,1,海鸥 + 苍穹：饱和空袭
+combo_red,skill_combo_red,ship_red_03,ship_red_04,1,1,匕首 + 血鲨：双雷齐射
+combo_green,skill_combo_green,ship_green_02,ship_green_03,3,1,微风 + 晨星：生命之潮

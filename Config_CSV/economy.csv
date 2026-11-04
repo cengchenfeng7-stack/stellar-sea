@@ -1,0 +1,95 @@
+﻿key,category,value,unit,description
+start_gold,起始资源,2000,gold,起始金币
+start_diamond,起始资源,1500,diamond,起始钻石（10 抽）
+start_expBook,起始资源,10,expBook,起始经验书
+start_tradeShip,起始资源,1,count,起始小型贸易船
+start_port,起始资源,2,count,起始解锁港口数
+idle_base_gold,挂机,600,gold/hour,第 1 章每小时金币
+idle_base_exp,挂机,10,expBook/hour,第 1 章每小时经验书
+idle_base_material,挂机,4,material/hour,第 1 章每小时材料
+idle_base_shard,挂机,5,shard/hour,第 1 章每小时碎片
+idle_base_skill,挂机,1,skillBook/hour,第 1 章每小时技能书
+idle_chapter_mult,挂机,1.4,x/chapter,每章产出倍率
+idle_offline_cap_hours,挂机,8,hour,离线结算上限
+idle_power_coef_min,挂机,0.5,ratio,战力系数下限
+idle_power_coef_max,挂机,1,ratio,战力系数上限
+level_growth,养成,0.08,ratio/level,每级属性成长
+level_exp_base,养成,100,exp,升级经验基数
+level_exp_pow,养成,1.5,pow,升级经验指数
+level_cap_0,养成,30,level,改造 0 阶等级上限
+level_cap_1,养成,50,level,改造 1 阶等级上限
+level_cap_2,养成,70,level,改造 2 阶等级上限
+level_cap_3,养成,85,level,改造 3 阶等级上限
+level_cap_4,养成,100,level,改造 4 阶等级上限
+star_mult,养成,0.1,ratio/star,每星属性乘区
+remodel_mult,养成,0.05,ratio/tier,每阶改造属性乘区
+remodel_max,养成,4,tier,改造最高阶
+star_cost_1,养成,20,shard,1→2 星碎片
+star_cost_2,养成,40,shard,2→3 星碎片
+star_cost_3,养成,80,shard,3→4 星碎片
+star_cost_4,养成,160,shard,4→5 星碎片
+star_cost_5,养成,320,shard,5→6 星碎片
+star_quality_B,养成,0.5,mult,B 品质升星系数
+star_quality_A,养成,1,mult,A 品质升星系数
+star_quality_S,养成,1.5,mult,S 品质升星系数
+star_quality_SS,养成,2,mult,SS 品质升星系数
+enhance_gold_base,养成,200,gold,强化金币基数
+enhance_gold_mult,养成,1.35,mult,强化金币增长
+enhance_material_per_level,养成,2,material,每级强化材料
+enhance_max,养成,15,level,强化上限
+remodel_1_gold,养成,20000,gold,改造 1 阶金币
+remodel_1_material,养成,50,material,改造 1 阶材料
+remodel_1_blueprint,养成,5,blueprint,改造 1 阶图纸
+remodel_2_gold,养成,60000,gold,改造 2 阶金币
+remodel_2_material,养成,120,material,改造 2 阶材料
+remodel_2_blueprint,养成,10,blueprint,改造 2 阶图纸
+remodel_3_gold,养成,150000,gold,改造 3 阶金币
+remodel_3_material,养成,300,material,改造 3 阶材料
+remodel_3_blueprint,养成,20,blueprint,改造 3 阶图纸
+remodel_4_gold,养成,400000,gold,改造 4 阶金币
+remodel_4_material,养成,800,material,改造 4 阶材料
+remodel_4_blueprint,养成,40,blueprint,改造 4 阶图纸
+power_chapter_base,战力,3000,power,第 1 章推荐战力
+power_chapter_mult,战力,1.4,x/chapter,每章推荐战力倍率
+enemy_ratio_normal,战力,0.7,ratio,普通关敌人战力/推荐战力
+enemy_ratio_elite,战力,0.9,ratio,精英关敌人战力/推荐战力
+enemy_ratio_boss,战力,1.2,ratio,BOSS 关敌人战力/推荐战力
+trade_profit_min,贸易,0.1,ratio,往返利润率下限
+trade_profit_max,贸易,0.3,ratio,往返利润率上限
+trade_daily_cap_per_level,贸易,5000,gold/day/level,每港每日交易额上限系数
+trade_exp_per_1000,贸易,1,exp/1000gold,每 1000 正利润换贸易经验
+trade_level_exp_base,贸易,2,exp,贸易升级经验基数（n→n+1 需 base×n^pow）
+trade_level_exp_pow,贸易,2,pow,贸易升级经验指数
+trade_level_max,贸易,10,level,贸易等级上限
+trade_slot_1_level,贸易,1,level,第 1 条航线槽位解锁等级
+trade_slot_2_level,贸易,2,level,第 2 条航线槽位解锁等级
+trade_slot_3_level,贸易,5,level,第 3 条航线槽位解锁等级
+trade_route_max_round_hours,贸易,8,hour,往返总耗时上限
+trade_pirate_loss_rate,贸易,0.4,ratio,海盗基础货损率
+trade_pirate_break_ratio,贸易,0.6,ratio,护航大破战力阈值
+trade_break_repair_hours,贸易,2,hour,大破修理时间
+gacha_price,抽卡,150,diamond,单抽价格
+gacha_ten_price,抽卡,1500,diamond,十连价格
+gacha_ss_rate,抽卡,0.02,ratio,SS 基础概率
+gacha_s_rate,抽卡,0.1,ratio,S 基础概率
+gacha_a_rate,抽卡,0.38,ratio,A 基础概率
+gacha_b_rate,抽卡,0.5,ratio,B 基础概率
+shard_dup_B,抽卡,10,shard,B 重复转碎片
+shard_dup_A,抽卡,25,shard,A 重复转碎片
+shard_dup_S,抽卡,60,shard,S 重复转碎片
+shard_dup_SS,抽卡,150,shard,SS 重复转碎片
+shard_exchange_S,抽卡,300,shard,兑换指定 S
+shard_exchange_SS,抽卡,800,shard,兑换指定 SS
+event_trigger_rate,事件,0.15,ratio,普通战斗后触发随机事件概率
+event_weight_storm,事件,0.4,ratio,风暴权重
+event_weight_pirate,事件,0.4,ratio,海盗权重
+event_weight_treasure,事件,0.2,ratio,宝藏权重
+storm_hp_loss,事件,0.2,ratio,风暴削减耐久比例
+diamond_weekly_target,目标,4500,diamond/week,前 4 周每周钻石目标
+diamond_longterm_weekly,目标,2900,diamond/week,长期每周钻石目标
+day_target_chapter_7,目标,2,chapter,第 7 天目标章节
+day_target_chapter_14,目标,3,chapter,第 14 天目标章节
+day_target_chapter_30,目标,5,chapter,第 30 天目标章节
+day_target_pulls_7,目标,40,pull,第 7 天累计抽数
+day_target_pulls_14,目标,70,pull,第 14 天累计抽数
+day_target_pulls_30,目标,130,pull,第 30 天累计抽数

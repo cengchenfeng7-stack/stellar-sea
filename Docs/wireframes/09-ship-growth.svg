@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#0B1B2B" stroke="#0B1B2B"/>
+<text x="20" y="44" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#E6F1FF" font-weight="700" text-anchor="start">舰船养成</text>
+<text x="20" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">主港 · 等级 / 星级 / 改造 / 技能</text>
+<line x1="0" y1="78" x2="390" y2="78" stroke="#2A4A66" stroke-width="1"/>
+<rect x="20" y="96" width="110" height="130" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="75" y="150" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="middle">铁锚号</text>
+<text x="75" y="174" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="middle">B · 铁锚联邦</text>
+<text x="75" y="200" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#4FC3F7" font-weight="400" text-anchor="middle">Lv.12 · 3★</text>
+<rect x="146" y="96" width="224" height="130" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="162" y="122" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4FC3F7" font-weight="700" text-anchor="start">战力 1,240</text>
+<text x="162" y="148" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">HP 2,080 / ATK 208 / DEF 104</text>
+<text x="162" y="170" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">SPD 95 / 暴击 5% / 暴伤 150%</text>
+<text x="162" y="196" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#F2C14E" font-weight="400" text-anchor="start">改造 0 阶 · 等级上限 30</text>
+<rect x="20" y="242" width="80" height="38" rx="8" fill="#173650" stroke="#4FC3F7"/><text x="60" y="266" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#4FC3F7" font-weight="400" text-anchor="middle">等级</text>
+<rect x="108" y="242" width="80" height="38" rx="8" fill="#12293F" stroke="#2A4A66"/><text x="148" y="266" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">星级</text>
+<rect x="196" y="242" width="80" height="38" rx="8" fill="#12293F" stroke="#2A4A66"/><text x="236" y="266" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">改造</text>
+<rect x="284" y="242" width="80" height="38" rx="8" fill="#12293F" stroke="#2A4A66"/><text x="324" y="266" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">技能</text>
+<rect x="20" y="296" width="350" height="150" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="34" y="324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#E6F1FF" font-weight="700" text-anchor="start">等级 12 → 13</text>
+<rect x="34" y="340" width="322" height="12" rx="6" fill="#173650" stroke="#2A4A66"/><rect x="34" y="340" width="231.84" height="12" rx="6" fill="#4FC3F7" stroke="#4FC3F7"/>
+<text x="34" y="372" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">经验 7,200 / 10,000</text>
+<text x="34" y="398" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#E6F1FF" font-weight="400" text-anchor="start">经验书 ×34（每本 1,000 经验）</text>
+<rect x="34" y="414" width="150" height="40" rx="10" fill="#12293F" stroke="#12293F"/><text x="109" y="439" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#4FC3F7" font-weight="700" text-anchor="middle">使用 1 本</text>
+<rect x="200" y="414" width="150" height="40" rx="10" fill="#4FC3F7" stroke="#4FC3F7"/><text x="275" y="439" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#062033" font-weight="700" text-anchor="middle">升到上限</text>
+<rect x="20" y="466" width="350" height="110" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="34" y="494" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#E6F1FF" font-weight="700" text-anchor="start">技能</text>
+<text x="34" y="518" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#E6F1FF" font-weight="400" text-anchor="start">钢铁壁垒 · Lv.3 / 10</text>
+<text x="34" y="540" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">嘲讽 2 回合，自身减伤 +30%</text>
+<text x="34" y="562" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#F2C14E" font-weight="400" text-anchor="start">技能书 ×22 · 升级需 3 本</text>
+<rect x="20" y="600" width="170" height="48" rx="10" fill="#12293F" stroke="#12293F"/><text x="105" y="629" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#4FC3F7" font-weight="700" text-anchor="middle">升星</text>
+<rect x="200" y="600" width="170" height="48" rx="10" fill="#12293F" stroke="#12293F"/><text x="285" y="629" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#4FC3F7" font-weight="700" text-anchor="middle">改造</text>
+<text x="20" y="680" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">升星碎片：20 × B 0.5 = 10</text>
+<text x="20" y="702" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">改造 1 阶：图纸 5 / 金币 2 万 / 材料 50</text>
+<line x1="0" y1="780" x2="390" y2="780" stroke="#2A4A66" stroke-width="1"/>
+<rect x="20" y="794" width="54" height="34" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="47" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#4FC3F7" font-weight="700" text-anchor="middle">主港</text>
+<rect x="94" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="121" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">推图</text>
+<rect x="168" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="195" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">贸易</text>
+<rect x="242" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="269" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">抽卡</text>
+<rect x="316" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="343" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">基地</text>
+</svg>

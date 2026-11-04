@@ -1,0 +1,13 @@
+﻿id,name,branch,tier,prerequisite,effectType,effectValue,costGold,costMaterial,costBlueprint,timeMinutes,unlockRemodelTier,description
+tech_remodel_1,改造工法 I,remodel,1,,unlockRemodelTier,1,5000,50,5,120,1,解锁 1 阶改造（等级上限 50）
+tech_remodel_2,改造工法 II,remodel,2,tech_remodel_1,unlockRemodelTier,2,20000,120,10,360,2,解锁 2 阶改造（等级上限 70）
+tech_remodel_3,改造工法 III,remodel,3,tech_remodel_2,unlockRemodelTier,3,60000,300,20,720,3,解锁 3 阶改造（等级上限 85）
+tech_remodel_4,改造工法 IV,remodel,4,tech_remodel_3,unlockRemodelTier,4,200000,800,40,1440,4,解锁 4 阶改造（等级上限 100）
+tech_hp_1,船体强化 I,defense,1,,allAlliesHpPct,3,3000,30,3,60,0,全队耐久 +3%
+tech_hp_2,船体强化 II,defense,2,tech_hp_1,allAlliesHpPct,6,12000,100,8,240,0,全队耐久 +6%
+tech_atk_1,火控校准 I,offense,1,,allAlliesAtkPct,3,3000,30,3,60,0,全队攻击 +3%
+tech_atk_2,火控校准 II,offense,2,tech_atk_1,allAlliesAtkPct,6,12000,100,8,240,0,全队攻击 +6%
+tech_def_1,装甲改良 I,defense,1,,allAlliesDefPct,3,3000,30,3,60,0,全队防御 +3%
+tech_def_2,装甲改良 II,defense,2,tech_def_1,allAlliesDefPct,6,12000,100,8,240,0,全队防御 +6%
+tech_crit_1,瞄准系统 I,offense,1,,allAlliesCritRate,2,4000,40,4,90,0,全队暴击率 +2%
+tech_crit_2,瞄准系统 II,offense,2,tech_crit_1,allAlliesCritRate,4,16000,120,10,300,0,全队暴击率 +4%

@@ -1,0 +1,19 @@
+﻿id,name,faction,quality,role,isTradeShip,hp,atk,def,spd,critRate,critDmg,growth,slots,rageSkillId,passiveSkillId,exclusiveSkillId,flagshipSkillId,capacity,speed,buyPrice,unlockTradeLevel,description
+ship_anchor_01,铁锚号,anchor,B,前排承伤,0,1000,100,50,95,5,150,0.08,主炮|防空|设备,skill_anchor_rage,,,skill_anchor_flagship,0,0,0,0,铁锚联邦 B 前排承伤
+ship_anchor_02,堡垒,anchor,A,前排嘲讽,0,1300,130,65,95,5,150,0.08,主炮|副炮|防空|设备,skill_anchor_rage,skill_anchor_passive,,skill_anchor_flagship,0,0,0,0,铁锚联邦 A 前排嘲讽
+ship_anchor_03,重锤,anchor,S,前排反伤,0,1700,170,85,95,5,150,0.08,主炮|副炮|防空|鱼雷|设备,skill_anchor_rage,skill_anchor_passive,,skill_anchor_flagship,0,0,0,0,铁锚联邦 S 前排反伤
+ship_anchor_04,铁壁,anchor,SS,前排护盾,0,2200,220,110,95,5,150,0.08,主炮|副炮|防空|鱼雷|设备|舰载机,skill_anchor_rage,skill_anchor_passive,skill_ss_anchor,skill_anchor_flagship,0,0,0,0,铁锚联邦 SS 前排护盾
+ship_blue_01,蓝翼,blue,B,后排输出,0,1000,100,50,105,5,150,0.08,主炮|鱼雷|设备,skill_blue_rage,,,skill_blue_flagship,0,0,0,0,蓝潮同盟 B 后排输出
+ship_blue_02,天空,blue,A,后排群攻,0,1300,130,65,105,5,150,0.08,主炮|副炮|鱼雷|舰载机,skill_blue_rage,skill_blue_passive,,skill_blue_flagship,0,0,0,0,蓝潮同盟 A 后排群攻
+ship_blue_03,海鸥,blue,S,后排舰载机,0,1700,170,85,105,5,150,0.08,主炮|副炮|防空|鱼雷|舰载机,skill_blue_rage,skill_blue_passive,,skill_blue_flagship,0,0,0,0,蓝潮同盟 S 后排舰载机
+ship_blue_04,苍穹,blue,SS,后排制空,0,2200,220,110,105,5,150,0.08,主炮|副炮|防空|鱼雷|设备|舰载机,skill_blue_rage,skill_blue_passive,skill_ss_blue,skill_blue_flagship,0,0,0,0,蓝潮同盟 SS 后排制空
+ship_red_01,赤影,red,B,后排爆发,0,1000,100,50,100,5,150,0.08,主炮|鱼雷|设备,skill_red_rage,,,skill_red_flagship,0,0,0,0,赤潮帝国 B 后排爆发
+ship_red_02,潜伏者,red,A,后排单体,0,1300,130,65,100,5,150,0.08,主炮|鱼雷|设备|舰载机,skill_red_rage,skill_red_passive,,skill_red_flagship,0,0,0,0,赤潮帝国 A 后排单体
+ship_red_03,匕首,red,S,后排暴击,0,1700,170,85,100,5,150,0.08,主炮|副炮|鱼雷|设备|舰载机,skill_red_rage,skill_red_passive,,skill_red_flagship,0,0,0,0,赤潮帝国 S 后排暴击
+ship_red_04,血鲨,red,SS,后排斩杀,0,2200,220,110,100,5,150,0.08,主炮|副炮|防空|鱼雷|设备|舰载机,skill_red_rage,skill_red_passive,skill_ss_red,skill_red_flagship,0,0,0,0,赤潮帝国 SS 后排斩杀
+ship_green_01,翡翠,green,A,后排治疗,0,1300,130,65,110,5,150,0.08,主炮|防空|设备|舰载机,skill_green_rage,skill_green_passive,,skill_green_flagship,0,0,0,0,翡翠共和国 A 后排治疗
+ship_green_02,微风,green,S,后排增益,0,1700,170,85,110,5,150,0.08,主炮|副炮|防空|设备|舰载机,skill_green_rage,skill_green_passive,,skill_green_flagship,0,0,0,0,翡翠共和国 S 后排增益
+ship_green_03,晨星,green,SS,后排支援,0,2200,220,110,110,5,150,0.08,主炮|副炮|防空|鱼雷|设备|舰载机,skill_green_rage,skill_green_passive,skill_ss_green,skill_green_flagship,0,0,0,0,翡翠共和国 SS 后排支援
+ship_trade_small,小型贸易船,neutral,B,贸易,1,0,0,0,0,0,0,0,,,,,,100,1,0,0,贸易船，不参与战斗
+ship_trade_medium,中型贸易船,neutral,A,贸易,1,0,0,0,0,0,0,0,,,,,,250,0.9,50000,3,贸易船，不参与战斗
+ship_trade_large,大型贸易船,neutral,S,贸易,1,0,0,0,0,0,0,0,,,,,,600,0.8,200000,6,贸易船，不参与战斗

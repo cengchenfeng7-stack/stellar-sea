@@ -76,14 +76,16 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [ -d "build/iOS/Unity-iPhone.xcodeproj" ]; then
-            XCODE_DIR="build/iOS"
-          elif [ -d "群星海战/build/iOS/Unity-iPhone.xcodeproj" ]; then
-            XCODE_DIR="群星海战/build/iOS"
-          else
+          # game-ci 会把 Unity 的导出目录整体放进 buildsPath，
+          # 实际路径是 build/iOS/iOS/Unity-iPhone.xcodeproj，这里递归查找，避免版本差异。
+          XCODEPROJ="$(find . -maxdepth 5 -type d -name 'Unity-iPhone.xcodeproj' | head -n 1)"
+          if [ -z "$XCODEPROJ" ]; then
             echo "::error::找不到 Unity-iPhone.xcodeproj，请检查 game-ci 的 buildsPath 输出。"
+            find . -maxdepth 4 -type d -name '*.xcodeproj' || true
             exit 1
           fi
+          XCODE_DIR="$(dirname "$XCODEPROJ")"
+          echo "Xcode project: $XCODEPROJ"
 
           DERIVED="$RUNNER_TEMP/DerivedData"
 

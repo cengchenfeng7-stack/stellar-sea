@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#0B1B2B" stroke="#0B1B2B"/>
+<text x="20" y="44" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#E6F1FF" font-weight="700" text-anchor="start">主港</text>
+<text x="20" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">启动后 · 系统入口 / 红点 / 离线收益弹窗</text>
+<line x1="0" y1="78" x2="390" y2="78" stroke="#2A4A66" stroke-width="1"/>
+<rect x="20" y="92" width="350" height="54" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="34" y="116" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#F2C14E" font-weight="700" text-anchor="start">金币 12,480</text>
+<text x="160" y="116" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#4FC3F7" font-weight="700" text-anchor="start">钻石 1,500</text>
+<text x="280" y="116" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="start">材料 320</text>
+<text x="34" y="136" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="start">基地 Lv.3 · 贸易 Lv.2 · 战力 8,420</text>
+<rect x="20" y="160" width="170" height="110" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="34" y="188" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#E6F1FF" font-weight="700" text-anchor="start">推图</text>
+<text x="34" y="212" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">第 2 章 · 1-4</text>
+<text x="34" y="248" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4FC3F7" font-weight="400" text-anchor="start">继续 →</text>
+<rect x="200" y="160" width="170" height="110" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="214" y="188" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#E6F1FF" font-weight="700" text-anchor="start">贸易</text>
+<text x="214" y="212" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#F2C14E" font-weight="400" text-anchor="start">2 艘待收</text>
+<text x="214" y="248" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4FC3F7" font-weight="400" text-anchor="start">收船 →</text>
+<rect x="20" y="284" width="170" height="110" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="34" y="312" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#E6F1FF" font-weight="700" text-anchor="start">抽卡</text>
+<text x="34" y="336" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">保底 62 / 90</text>
+<text x="34" y="372" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4FC3F7" font-weight="400" text-anchor="start">招募 →</text>
+<rect x="200" y="284" width="170" height="110" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="214" y="312" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#E6F1FF" font-weight="700" text-anchor="start">基地</text>
+<text x="214" y="336" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#5FD38D" font-weight="400" text-anchor="start">升级完成</text>
+<text x="214" y="372" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#4FC3F7" font-weight="400" text-anchor="start">查看 →</text>
+<rect x="20" y="408" width="110" height="74" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="75" y="438" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#E6F1FF" font-weight="700" text-anchor="middle">舰船</text>
+<text x="75" y="460" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="middle">养成</text>
+<rect x="140" y="408" width="110" height="74" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="195" y="438" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#E6F1FF" font-weight="700" text-anchor="middle">舰长</text>
+<text x="195" y="460" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="middle">6 / 8</text>
+<rect x="260" y="408" width="110" height="74" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="315" y="438" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#E6F1FF" font-weight="700" text-anchor="middle">任务</text>
+<text x="315" y="460" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#FF6B6B" font-weight="400" text-anchor="middle">3 个红点</text>
+<rect x="20" y="496" width="350" height="120" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="34" y="524" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#E6F1FF" font-weight="700" text-anchor="start">图鉴 / 合击</text>
+<text x="34" y="550" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">图鉴：15 艘战舰 · 8 名舰长</text>
+<text x="34" y="572" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">合击：4 对 · 已激活 1 对</text>
+<rect x="250" y="536" width="100" height="36" rx="10" fill="#12293F" stroke="#12293F"/><text x="300" y="559" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#4FC3F7" font-weight="700" text-anchor="middle">打开</text>
+<rect x="20" y="630" width="350" height="70" rx="8" fill="#12293F" stroke="#FF6B6B"/>
+<text x="34" y="658" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#FF6B6B" font-weight="700" text-anchor="start">离线收益待领取</text>
+<text x="34" y="680" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">离开 2 小时 14 分</text>
+<rect x="250" y="646" width="100" height="36" rx="10" fill="#F2C14E" stroke="#F2C14E"/><text x="300" y="669" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#062033" font-weight="700" text-anchor="middle">领取</text>
+<line x1="0" y1="780" x2="390" y2="780" stroke="#2A4A66" stroke-width="1"/>
+<rect x="20" y="794" width="54" height="34" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="47" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#4FC3F7" font-weight="700" text-anchor="middle">主港</text>
+<rect x="94" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="121" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">推图</text>
+<rect x="168" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="195" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">贸易</text>
+<rect x="242" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="269" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">抽卡</text>
+<rect x="316" y="794" width="54" height="34" rx="8" fill="#12293F" stroke="#2A4A66"/>
+<text x="343" y="816" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">基地</text>
+</svg>

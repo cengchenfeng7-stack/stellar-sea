@@ -1,0 +1,9 @@
+﻿id,name,faction,unlockType,unlockValue,specialtyGoods,scarceGoods,priceFactor,description
+port_dawn,晨曦港,neutral,start,0,good_grain|good_wood,good_iron|good_silk,1,起始港，粮食与木材便宜
+port_anchor,铁锚港,anchor,start,0,good_iron|good_wood,good_spice|good_powder,1,铁锚联邦军港，铁矿充足；与晨曦港同为起始港
+port_blue,蓝潮港,blue,tradeLevel,3,good_silk|good_spice,good_grain|good_arms,1.05,蓝潮同盟贸易枢纽，丝绸与香料集散地
+port_red,赤潮港,red,stage,stage_2_12,good_powder|good_arms,good_grain|good_wood,1.1,赤潮帝国军港，火药与军械便宜；通关第 2 章解锁
+port_green,翡翠港,green,tradeLevel,5,good_grain|good_silk,good_iron|good_powder,1,翡翠共和国粮仓
+port_mist,雾隐港,neutral,tradeLevel,7,good_spice|good_powder,good_silk|good_arms,1.15,中立走私港，价格波动大
+port_starfall,星陨港,neutral,stage,stage_5_12,good_arms|good_iron,good_spice|good_grain,1.2,远洋军械港
+port_abyss,深渊港,neutral,tradeLevel,10,good_arms|good_spice,good_silk|good_wood,1.25,终局港口，高利润高风险

@@ -1,0 +1,35 @@
+﻿id,name,type,faction,ownerShipId,trigger,condition,conditionValue,chance,chancePerLevel,cost,cooldown,targetRule,power,powerPerLevel,defPenetration,durationRounds,stackRule,dispellable,oncePerBattle,effectType,effectValue,effect2Type,effect2Value,effect3Type,effect3Value,description
+skill_anchor_rage,钢铁壁垒,rage,anchor,,rage_full,,,100,0,100,0,self,0,0,0,2,refresh,1,0,taunt,1,damageReduction,30,,0,嘲讽 2 回合，自身减伤 +30%
+skill_anchor_passive,厚装甲,passive,anchor,,on_hit,,,10,1,0,0,self,0,0,0,0,refresh,1,0,reflect,30,,0,,0,受击时 10% 概率反伤 30%
+skill_anchor_flagship,联邦防线,flagship,anchor,,round_3_then_4,,,100,0,0,0,allAllies,0,0,0,3,refresh,1,0,damageReduction,10,,0,,0,全队减伤 +10%，3 回合
+skill_blue_rage,舰载机空袭,rage,blue,,rage_full,,,100,0,100,0,randomEnemy3,120,8,0,0,refresh,1,0,,0,,0,,0,随机 3 个目标各 120%
+skill_blue_passive,制空,passive,blue,,after_attack,,,100,0,0,0,singleEnemy,40,3,0,0,refresh,1,0,,0,,0,,0,普攻追加一次 40% 的舰载机攻击
+skill_blue_flagship,战机起飞,flagship,blue,,round_3_then_4,,,100,0,0,0,allEnemies,80,6,0,0,refresh,1,0,,0,,0,,0,立即对全体敌人造成 80% 伤害
+skill_red_rage,齐射鱼雷,rage,red,,rage_full,,,100,0,100,0,singleEnemy,260,16,30,0,refresh,1,0,,0,,0,,0,单体 260%，无视 30% DEF
+skill_red_passive,深潜,passive,red,,always,targetHpAbove,70,100,0,0,0,self,0,0,0,0,refresh,1,0,critRate,10,damageUp,15,,0,暴击率 +10%，对耐久 >70% 的目标增伤 15%
+skill_red_flagship,雷幕,flagship,red,,round_3_then_4,,,100,0,0,0,allAllies,0,0,0,3,refresh,1,0,critDmg,20,,0,,0,全队暴击伤害 +20%，3 回合
+skill_green_rage,战地修复,rage,green,,rage_full,,,100,0,100,0,lowestAlly,200,12,0,0,refresh,1,0,cleanse,1,,0,,0,治疗最低耐久友军 ATK×200%，净化 1 个负面
+skill_green_passive,电子干扰,passive,green,,after_action,,,20,1,0,0,randomEnemy,0,0,0,2,refresh,1,0,spdDown,15,,0,,0,行动后 20% 概率使随机敌人 SPD −15%，2 回合
+skill_green_flagship,补给线,flagship,green,,round_3_then_4,,,100,0,0,0,allAllies,60,4,0,0,refresh,1,0,rageGain,20,,0,,0,全队回复 ATK×60%，怒气 +20
+skill_ss_anchor,不沉之锚,exclusive,anchor,ship_anchor_04,battle_start,,,100,0,0,0,self,0,0,0,0,refresh,1,0,shield,25,damageReduction,15,damageReduction,10,开场护盾 25% 最大耐久；护盾存在时自身减伤 +15%；护盾破碎时全队减伤 +10%，2 回合
+skill_ss_blue,制空权,exclusive,blue,ship_blue_04,round_3_6_9,,,100,0,0,0,allEnemies,60,4,0,2,refresh,1,0,spdDown,10,,0,,0,第 3、6、9…回合开始时，对全体敌人造成 60% 攻击伤害，并使其 SPD −10%，持续 2 回合
+skill_ss_red,猎杀本能,exclusive,red,ship_red_04,always,targetHpBelow,40,100,0,0,0,self,0,0,0,0,refresh,1,0,critRate,30,critDmg,50,rageGain,50,对耐久 <40% 的目标暴击率 +30%、暴击伤害 +50%；击杀目标后立即获得 50 怒气
+skill_ss_green,潮汐祝福,exclusive,green,ship_green_03,on_heal,,,100,0,0,0,allAllies,0,0,0,0,stack_3,1,1,damageReduction,5,immunity,1,,0,每次治疗使目标获得 5% 减伤，最多 3 层；每场一次，友军首次致命伤害免疫并回复 20% 最大耐久
+skill_combo_anchor,铜墙铁壁,combo,anchor,,combo,,,100,0,0,0,allAllies,0,0,0,3,refresh,1,1,shield,20,damageReduction,15,,0,全队每人获得自身最大耐久 20% 的护盾，3 回合；期间全队减伤 +15%
+skill_combo_blue,饱和空袭,combo,blue,,combo,,,100,0,0,0,allEnemies,120,8,0,2,refresh,1,1,spdDown,10,,0,,0,对全体敌人造成 120% 攻击伤害，并使其 SPD −10%，持续 2 回合
+skill_combo_red,双雷齐射,combo,red,,combo,targetHpBelow,40,100,0,0,0,highestHpEnemy,380,24,40,0,refresh,1,1,critRate,50,,0,,0,对当前耐久最高的敌人造成 380% 伤害，无视 40% DEF；目标耐久 <40% 时暴击率 +50%
+skill_combo_green,生命之潮,combo,green,,combo,,,100,0,0,0,allAllies,150,10,0,0,refresh,1,1,cleanse,99,rageGain,20,,0,全队回复施放者 ATK×150% 的耐久，净化全部减益，怒气 +20
+skill_cap_anchor_01,铁壁指挥,passive,anchor,,always,,,100,0,0,0,allAllies,0,0,0,0,refresh,1,0,damageReduction,5,,0,,0,全队减伤 +5%
+skill_cap_anchor_02,锚定,passive,anchor,,always,,,100,0,0,0,self,0,0,0,0,refresh,1,0,defUp,10,,0,,0,自身防御 +10%
+skill_cap_blue_01,航空指挥,passive,blue,,always,,,100,0,0,0,allAllies,0,0,0,0,refresh,1,0,atkUp,5,,0,,0,全队攻击 +5%
+skill_cap_blue_02,精准空袭,passive,blue,,always,,,100,0,0,0,backRowAllies,0,0,0,0,refresh,1,0,atkUp,8,,0,,0,后排攻击 +8%
+skill_cap_red_01,鱼雷指挥,passive,red,,always,,,100,0,0,0,allAllies,0,0,0,0,refresh,1,0,critRate,3,,0,,0,全队暴击率 +3%
+skill_cap_red_02,猎手,passive,red,,always,,,100,0,0,0,self,0,0,0,0,refresh,1,0,critDmg,15,,0,,0,自身暴击伤害 +15%
+skill_cap_green_01,医疗指挥,passive,green,,always,,,100,0,0,0,allAllies,0,0,0,0,refresh,1,0,healUp,10,,0,,0,全队治疗量 +10%
+skill_cap_green_02,顺风,passive,green,,always,,,100,0,0,0,allAllies,0,0,0,0,refresh,1,0,spdUp,5,,0,,0,全队速度 +5%
+skill_enemy_heavy,重装冲撞,rage,enemy,,rage_full,,,100,0,100,0,singleEnemy,150,0,0,2,refresh,1,0,defUp,20,,0,,0,单体 150%，自身防御 +20%，2 回合
+skill_enemy_swarm,集群突袭,rage,enemy,,rage_full,,,100,0,100,0,randomEnemy3,80,0,0,0,refresh,1,0,,0,,0,,0,随机 3 个目标各 80%
+skill_enemy_gunboat,速射炮击,rage,enemy,,rage_full,,,100,0,100,0,singleEnemy,180,0,0,0,refresh,1,0,,0,,0,,0,单体 180%
+skill_enemy_jammer,干扰脉冲,rage,enemy,,rage_full,,,100,0,100,0,allEnemies,0,0,0,2,refresh,1,0,spdDown,10,dot,30,,0,全体 SPD −10%，并附加持续伤害，2 回合
+skill_enemy_carrier,舰载机支援,rage,enemy,,rage_full,,,100,0,100,0,allEnemies,90,0,0,0,refresh,1,0,,0,,0,,0,全体 90%
+skill_enemy_boss,深渊炮击,rage,enemy,,rage_full,,,100,0,100,0,allEnemies,140,0,0,1,refresh,1,0,stun,1,,0,,0,全体 140%，眩晕 1 回合

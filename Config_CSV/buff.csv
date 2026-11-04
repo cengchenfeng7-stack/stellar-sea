@@ -1,0 +1,18 @@
+﻿id,name,type,stat,value,durationRounds,stackRule,dispellable,isShield,description
+buff_taunt,嘲讽,debuff,targeting,1,2,refresh,0,0,敌方单体攻击 100% 选择该目标
+buff_damage_reduction,减伤,buff,damageReduction,1,3,refresh,1,0,按层数值减少受到伤害
+buff_damage_up,增伤,buff,damageUp,1,3,refresh,1,0,按层数值提高造成伤害
+buff_crit_rate,暴击率提升,buff,critRate,1,3,refresh,1,0,提高暴击率
+buff_crit_dmg,暴击伤害提升,buff,critDmg,1,3,refresh,1,0,提高暴击伤害
+buff_atk_up,攻击提升,buff,atkUp,1,3,refresh,1,0,提高攻击百分比
+buff_def_up,防御提升,buff,defUp,1,3,refresh,1,0,提高防御百分比
+buff_spd_up,速度提升,buff,spdUp,1,2,refresh,1,0,提高速度百分比
+buff_spd_down,减速,debuff,spdDown,1,2,refresh,1,0,降低速度百分比
+buff_shield,护盾,buff,shield,1,3,refresh,0,1,优先吸收伤害
+buff_dot,持续伤害,debuff,dot,1,2,refresh,1,0,每回合损失耐久
+buff_stun,眩晕,debuff,stun,1,1,refresh,1,0,无法行动
+buff_heal_up,治疗提升,buff,healUp,1,3,refresh,1,0,提高治疗量
+buff_immunity,致命免疫,buff,immunity,1,1,refresh,0,0,免疫一次致命伤害
+buff_reflect,反伤,buff,reflect,1,1,refresh,0,0,反弹受到伤害的一定比例
+buff_rage_gain,怒气获取,buff,rageGain,1,1,refresh,0,0,立即获得怒气
+buff_cleanse,净化,buff,cleanse,1,0,refresh,0,0,立即净化指定数量的负面状态（瞬时效果）

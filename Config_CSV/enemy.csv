@@ -1,0 +1,16 @@
+﻿id,name,archetype,faction,hp,atk,def,spd,critRate,critDmg,skillId,lootTableId,isBoss,role,power,description
+enemy_heavy_1,重装舰·I,heavy,enemy,2600,90,120,90,5,150,skill_enemy_heavy,loot_enemy,0,前排坦克,770,敌方 重装舰 I 型
+enemy_heavy_2,重装舰·II,heavy,enemy,2990,103,138,90,5,150,skill_enemy_heavy,loot_enemy,0,前排坦克,885,敌方 重装舰 II 型
+enemy_swarm_1,集群舰·I,swarm,enemy,900,70,40,115,5,150,skill_enemy_swarm,loot_enemy,0,数量压制,352,敌方 集群舰 I 型
+enemy_swarm_2,集群舰·II,swarm,enemy,1035,81,46,115,5,150,skill_enemy_swarm,loot_enemy,0,数量压制,406,敌方 集群舰 II 型
+enemy_gunboat_1,炮艇·I,gunboat,enemy,1400,130,60,105,5,150,skill_enemy_gunboat,loot_enemy,0,单体输出,561,敌方 炮艇 I 型
+enemy_gunboat_2,炮艇·II,gunboat,enemy,1610,150,69,105,5,150,skill_enemy_gunboat,loot_enemy,0,单体输出,646,敌方 炮艇 II 型
+enemy_jammer_1,干扰舰·I,jammer,enemy,1200,80,50,110,5,150,skill_enemy_jammer,loot_enemy,0,减益,433,敌方 干扰舰 I 型
+enemy_jammer_2,干扰舰·II,jammer,enemy,1380,92,57,110,5,150,skill_enemy_jammer,loot_enemy,0,减益,497,敌方 干扰舰 II 型
+enemy_carrier_1,航母·I,carrier,enemy,1600,110,55,100,5,150,skill_enemy_carrier,loot_enemy,0,群攻,542,敌方 航母 I 型
+enemy_carrier_2,航母·II,carrier,enemy,1840,126,63,100,5,150,skill_enemy_carrier,loot_enemy,0,群攻,622,敌方 航母 II 型
+enemy_boss_ch1,深渊巡洋舰,boss,enemy,6240,216,288,90,8,160,skill_enemy_boss,loot_boss,1,章节 BOSS,1939,第 1 章 BOSS
+enemy_boss_ch2,深渊战列舰,boss,enemy,6240,216,288,90,8,160,skill_enemy_boss,loot_boss,1,章节 BOSS,1939,第 2 章 BOSS
+enemy_boss_ch3,深渊航母,boss,enemy,6240,216,288,90,8,160,skill_enemy_boss,loot_boss,1,章节 BOSS,1939,第 3 章 BOSS
+enemy_boss_ch4,深渊要塞,boss,enemy,6240,216,288,90,8,160,skill_enemy_boss,loot_boss,1,章节 BOSS,1939,第 4 章 BOSS
+enemy_boss_ch5,深渊旗舰,boss,enemy,6240,216,288,90,8,160,skill_enemy_boss,loot_boss,1,章节 BOSS,1939,第 5 章 BOSS

@@ -1,0 +1,29 @@
+﻿id,type,file,volume,loop,description
+bgm_main,BGM,audio/bgm/main.ogg,0.7,1,主港
+bgm_battle,BGM,audio/bgm/battle.ogg,0.6,1,普通战斗
+bgm_boss,BGM,audio/bgm/boss.ogg,0.6,1,BOSS 战
+bgm_trade,BGM,audio/bgm/trade.ogg,0.5,1,贸易
+sfx_click,SFX,audio/sfx/click.ogg,0.8,0,按钮点击
+sfx_back,SFX,audio/sfx/back.ogg,0.8,0,返回
+sfx_confirm,SFX,audio/sfx/confirm.ogg,0.8,0,确认
+sfx_cancel,SFX,audio/sfx/cancel.ogg,0.8,0,取消
+sfx_coin,SFX,audio/sfx/coin.ogg,0.8,0,金币入账
+sfx_reward,SFX,audio/sfx/reward.ogg,0.8,0,领取奖励
+sfx_levelup,SFX,audio/sfx/levelup.ogg,0.8,0,升级
+sfx_starup,SFX,audio/sfx/starup.ogg,0.8,0,升星
+sfx_remodel,SFX,audio/sfx/remodel.ogg,0.8,0,改造完成
+sfx_gacha_pull,SFX,audio/sfx/gacha_pull.ogg,0.8,0,抽卡
+sfx_gacha_ss,SFX,audio/sfx/gacha_ss.ogg,0.8,0,SS 出货
+sfx_gacha_s,SFX,audio/sfx/gacha_s.ogg,0.8,0,S 出货
+sfx_cannon,SFX,audio/sfx/cannon.ogg,0.8,0,主炮
+sfx_torpedo,SFX,audio/sfx/torpedo.ogg,0.8,0,鱼雷
+sfx_aircraft,SFX,audio/sfx/aircraft.ogg,0.8,0,舰载机
+sfx_hit,SFX,audio/sfx/hit.ogg,0.8,0,命中
+sfx_crit,SFX,audio/sfx/crit.ogg,0.8,0,暴击
+sfx_sink,SFX,audio/sfx/sink.ogg,0.8,0,击沉
+sfx_heal,SFX,audio/sfx/heal.ogg,0.8,0,治疗
+sfx_shield,SFX,audio/sfx/shield.ogg,0.8,0,护盾
+sfx_rage,SFX,audio/sfx/rage.ogg,0.8,0,怒气满
+sfx_combo,SFX,audio/sfx/combo.ogg,0.8,0,合击
+sfx_victory,SFX,audio/sfx/victory.ogg,0.8,0,胜利
+sfx_defeat,SFX,audio/sfx/defeat.ogg,0.8,0,失败

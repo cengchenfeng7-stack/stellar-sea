@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#0B1B2B" stroke="#0B1B2B"/>
+<text x="20" y="44" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#E6F1FF" font-weight="700" text-anchor="start">离线收益</text>
+<text x="20" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="start">启动时 · 离线时长 / 产出 / 领取</text>
+<line x1="0" y1="78" x2="390" y2="78" stroke="#2A4A66" stroke-width="1"/>
+<rect x="20" y="100" width="350" height="560" rx="8" fill="#173650" stroke="#2A4A66"/>
+<text x="195" y="140" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#E6F1FF" font-weight="700" text-anchor="middle">欢迎回港</text>
+<text x="195" y="168" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#8FB3CC" font-weight="400" text-anchor="middle">离线时长 2 小时 14 分</text>
+<text x="195" y="192" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="middle">（8 小时上限内）</text>
+<line x1="40" y1="210" x2="350" y2="210" stroke="#2A4A66" stroke-width="1"/>
+<text x="48" y="240" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8FB3CC" font-weight="400" text-anchor="start">金币</text><text x="340" y="240" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#F2C14E" font-weight="700" text-anchor="end">+13,420</text>
+<text x="48" y="292" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8FB3CC" font-weight="400" text-anchor="start">经验书</text><text x="340" y="292" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#E6F1FF" font-weight="700" text-anchor="end">+224</text>
+<text x="48" y="344" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8FB3CC" font-weight="400" text-anchor="start">材料</text><text x="340" y="344" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#E6F1FF" font-weight="700" text-anchor="end">+89</text>
+<text x="48" y="396" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8FB3CC" font-weight="400" text-anchor="start">通用碎片</text><text x="340" y="396" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#E6F1FF" font-weight="700" text-anchor="end">+112</text>
+<text x="48" y="448" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8FB3CC" font-weight="400" text-anchor="start">技能书</text><text x="340" y="448" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#E6F1FF" font-weight="700" text-anchor="end">+22</text>
+<text x="195" y="530" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8FB3CC" font-weight="400" text-anchor="middle">战力系数 0.86 · 挂机关卡 2-4</text>
+<rect x="60" y="570" width="270" height="52" rx="10" fill="#F2C14E" stroke="#F2C14E"/><text x="195" y="601" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#062033" font-weight="700" text-anchor="middle">领取</text>
+<text x="195" y="640" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#8FB3CC" font-weight="400" text-anchor="middle">提示：在线挂机不受 8 小时上限限制</text>
+</svg>
