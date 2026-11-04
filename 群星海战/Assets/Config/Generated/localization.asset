@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: localization
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: localization
+  idColumn: key
+  headers:
+  - key
+  - zh
+  - description
+  rows:
+  - values:
+    - app.name
+    - "\u7FA4\u661F\u6D77\u6218"
+    - 
+  - values:
+    - common.confirm
+    - "\u786E\u8BA4"
+    - 
+  - values:
+    - common.cancel
+    - "\u53D6\u6D88"
+    - 
+  - values:
+    - common.close
+    - "\u5173\u95ED"
+    - 
+  - values:
+    - common.back
+    - "\u8FD4\u56DE"
+    - 
+  - values:
+    - common.ok
+    - "\u597D\u7684"
+    - 
+  - values:
+    - common.skip
+    - "\u8DF3\u8FC7"
+    - 
+  - values:
+    - common.loading
+    - "\u52A0\u8F7D\u4E2D\u2026"
+    - 
+  - values:
+    - common.empty
+    - "\u6682\u65E0\u5185\u5BB9"
+    - 
+  - values:
+    - common.locked
+    - "\u672A\u89E3\u9501"
+    - 
+  - values:
+    - common.level
+    - "\u7B49\u7EA7"
+    - 
+  - values:
+    - common.star
+    - "\u661F\u7EA7"
+    - 
+  - values:
+    - common.power
+    - "\u6218\u529B"
+    - 
+  - values:
+    - common.quality
+    - "\u54C1\u8D28"
+    - 
+  - values:
+    - common.count
+    - "\u6570\u91CF"
+    - 
+  - values:
+    - common.reward
+    - "\u5956\u52B1"
+    - 
+  - values:
+    - resource.gold
+    - "\u91D1\u5E01"
+    - 
+  - values:
+    - resource.diamond
+    - "\u94BB\u77F3"
+    - 
+  - values:
+    - resource.material
+    - "\u6750\u6599"
+    - 
+  - values:
+    - resource.blueprint
+    - "\u56FE\u7EB8"
+    - 
+  - values:
+    - resource.expBook
+    - "\u7ECF\u9A8C\u4E66"
+    - 
+  - values:
+    - resource.skillBook
+    - "\u6280\u80FD\u4E66"
+    - 
+  - values:
+    - resource.shard
+    - "\u901A\u7528\u788E\u7247"
+    - 
+  - values:
+    - resource.equipBox
+    - "\u88C5\u5907\u7BB1"
+    - 
+  - values:
+    - resource.captainTicket
+    - "\u8230\u957F\u62DB\u52DF\u5238"
+    - 
+  - values:
+    - quality.B
+    - B
+    - 
+  - values:
+    - quality.A
+    - A
+    - 
+  - values:
+    - quality.S
+    - S
+    - 
+  - values:
+    - quality.SS
+    - SS
+    - 
+  - values:
+    - faction.anchor
+    - "\u94C1\u951A\u8054\u90A6"
+    - 
+  - values:
+    - faction.blue
+    - "\u84DD\u6F6E\u540C\u76DF"
+    - 
+  - values:
+    - faction.red
+    - "\u8D64\u6F6E\u5E1D\u56FD"
+    - 
+  - values:
+    - faction.green
+    - "\u7FE1\u7FE0\u5171\u548C\u56FD"
+    - 
+  - values:
+    - screen.mainPort
+    - "\u4E3B\u6E2F"
+    - 
+  - values:
+    - screen.offlineReward
+    - "\u79BB\u7EBF\u6536\u76CA"
+    - 
+  - values:
+    - screen.stageMap
+    - "\u63A8\u56FE\u5730\u56FE"
+    - 
+  - values:
+    - screen.formation
+    - "\u7F16\u961F"
+    - 
+  - values:
+    - screen.battle
+    - "\u6218\u6597"
+    - 
+  - values:
+    - screen.result
+    - "\u7ED3\u7B97"
+    - 
+  - values:
+    - screen.trade
+    - "\u8D38\u6613"
+    - 
+  - values:
+    - screen.settings
+    - "\u8BBE\u7F6E"
+    - 
+  - values:
+    - screen.shipGrowth
+    - "\u8230\u8239\u517B\u6210"
+    - 
+  - values:
+    - screen.equipment
+    - "\u88C5\u5907\u7BA1\u7406"
+    - 
+  - values:
+    - screen.gacha
+    - "\u62BD\u5361"
+    - 
+  - values:
+    - screen.base
+    - "\u57FA\u5730"
+    - 
+  - values:
+    - screen.captain
+    - "\u8230\u957F\u7BA1\u7406"
+    - 
+  - values:
+    - screen.tasks
+    - "\u6BCF\u65E5\u4EFB\u52A1\u4E0E\u6210\u5C31"
+    - 
+  - values:
+    - main.trade
+    - "\u8D38\u6613"
+    - 
+  - values:
+    - main.stage
+    - "\u63A8\u56FE"
+    - 
+  - values:
+    - main.formation
+    - "\u7F16\u961F"
+    - 
+  - values:
+    - main.gacha
+    - "\u62BD\u5361"
+    - 
+  - values:
+    - main.base
+    - "\u57FA\u5730"
+    - 
+  - values:
+    - main.ships
+    - "\u8230\u8239"
+    - 
+  - values:
+    - main.captains
+    - "\u8230\u957F"
+    - 
+  - values:
+    - main.tasks
+    - "\u4EFB\u52A1"
+    - 
+  - values:
+    - main.settings
+    - "\u8BBE\u7F6E"
+    - 
+  - values:
+    - offline.title
+    - "\u79BB\u7EBF\u6536\u76CA"
+    - 
+  - values:
+    - offline.duration
+    - "\u79BB\u7EBF\u65F6\u957F"
+    - 
+  - values:
+    - offline.claim
+    - "\u9886\u53D6"
+    - 
+  - values:
+    - stage.chapter
+    - "\u7B2C {0} \u7AE0"
+    - 
+  - values:
+    - stage.node
+    - "\u7B2C {0}-{1} \u5173"
+    - 
+  - values:
+    - stage.star1
+    - "\u6218\u6597\u80DC\u5229"
+    - 
+  - values:
+    - stage.star2
+    - "\u65E0\u8230\u6C89\u6CA1"
+    - 
+  - values:
+    - stage.star3
+    - "\u76EE\u6807\u56DE\u5408\u5185\u901A\u5173"
+    - 
+  - values:
+    - battle.auto
+    - "\u81EA\u52A8"
+    - 
+  - values:
+    - battle.speed
+    - "\u901F\u5EA6"
+    - 
+  - values:
+    - battle.rage
+    - "\u6012\u6C14"
+    - 
+  - values:
+    - formation.front
+    - "\u524D\u6392"
+    - 
+  - values:
+    - formation.back
+    - "\u540E\u6392"
+    - 
+  - values:
+    - formation.flagship
+    - "\u65D7\u8230"
+    - 
+  - values:
+    - formation.escort
+    - "\u62A4\u822A"
+    - 
+  - values:
+    - formation.bonus
+    - "\u540C\u7CFB\u52A0\u6210"
+    - 
+  - values:
+    - trade.port
+    - "\u6E2F\u53E3"
+    - 
+  - values:
+    - trade.route
+    - "\u822A\u7EBF"
+    - 
+  - values:
+    - trade.fleet
+    - "\u8239\u961F"
+    - 
+  - values:
+    - trade.dispatch
+    - "\u6D3E\u51FA"
+    - 
+  - values:
+    - trade.collect
+    - "\u6536\u8239"
+    - 
+  - values:
+    - trade.profit
+    - "\u5229\u6DA6"
+    - 
+  - values:
+    - trade.risk
+    - "\u98CE\u9669"
+    - 
+  - values:
+    - trade.freight
+    - "\u8FD0\u8D39"
+    - 
+  - values:
+    - trade.capacity
+    - "\u8F7D\u91CD"
+    - 
+  - values:
+    - gacha.pull1
+    - "\u5355\u62BD"
+    - 
+  - values:
+    - gacha.pull10
+    - "\u5341\u8FDE"
+    - 
+  - values:
+    - gacha.pity
+    - "\u4FDD\u5E95\u8FDB\u5EA6"
+    - 
+  - values:
+    - gacha.newbie
+    - "\u65B0\u624B\u6C60"
+    - 
+  - values:
+    - gacha.coupon
+    - "\u65B0\u624B\u9009\u62E9\u5238"
+    - 
+  - values:
+    - gacha.couponTip
+    - "\u9009\u62E9\u4E00\u8258 SS \u6218\u8230"
+    - 
+  - values:
+    - growth.levelUp
+    - "\u5347\u7EA7"
+    - 
+  - values:
+    - growth.starUp
+    - "\u5347\u661F"
+    - 
+  - values:
+    - growth.remodel
+    - "\u6539\u9020"
+    - 
+  - values:
+    - growth.skill
+    - "\u6280\u80FD"
+    - 
+  - values:
+    - equip.equip
+    - "\u7A7F\u6234"
+    - 
+  - values:
+    - equip.enhance
+    - "\u5F3A\u5316"
+    - 
+  - values:
+    - captain.assign
+    - "\u4EFB\u547D"
+    - 
+  - values:
+    - captain.remove
+    - "\u5378\u4E0B"
+    - 
+  - values:
+    - base.upgrade
+    - "\u5347\u7EA7"
+    - 
+  - values:
+    - base.queue
+    - "\u5347\u7EA7\u961F\u5217"
+    - 
+  - values:
+    - base.buyTradeShip
+    - "\u8D2D\u4E70\u8D38\u6613\u8239"
+    - 
+  - values:
+    - task.claim
+    - "\u9886\u53D6"
+    - 
+  - values:
+    - task.claimed
+    - "\u5DF2\u9886\u53D6"
+    - 
+  - values:
+    - task.daily
+    - "\u6BCF\u65E5"
+    - 
+  - values:
+    - task.weekly
+    - "\u6BCF\u5468"
+    - 
+  - values:
+    - task.achievement
+    - "\u6210\u5C31"
+    - 
+  - values:
+    - settings.speed
+    - "\u6218\u6597\u901F\u5EA6"
+    - 
+  - values:
+    - settings.volume
+    - "\u97F3\u91CF"
+    - 
+  - values:
+    - settings.export
+    - "\u5BFC\u51FA\u5B58\u6863"
+    - 
+  - values:
+    - settings.import
+    - "\u5BFC\u5165\u5B58\u6863"
+    - 
+  - values:
+    - msg.goldNotEnough
+    - "\u91D1\u5E01\u4E0D\u8DB3"
+    - 
+  - values:
+    - msg.diamondNotEnough
+    - "\u94BB\u77F3\u4E0D\u8DB3"
+    - 
+  - values:
+    - msg.fleetEmpty
+    - "\u81F3\u5C11\u9700\u8981 1 \u8258\u4E3B\u6218\u8230"
+    - 
+  - values:
+    - msg.slotOccupied
+    - "\u8BE5\u822A\u7EBF\u5DF2\u6709\u8239\u961F"
+    - 
+  - values:
+    - msg.saveExported
+    - "\u5B58\u6863\u5DF2\u5BFC\u51FA"
+    - 
+  - values:
+    - msg.saveImported
+    - "\u5B58\u6863\u5DF2\u5BFC\u5165"
+    - 

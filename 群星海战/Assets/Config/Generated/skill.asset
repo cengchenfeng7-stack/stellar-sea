@@ -1,0 +1,1014 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: skill
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: skill
+  idColumn: id
+  headers:
+  - id
+  - name
+  - type
+  - faction
+  - ownerShipId
+  - trigger
+  - condition
+  - conditionValue
+  - chance
+  - chancePerLevel
+  - cost
+  - cooldown
+  - targetRule
+  - power
+  - powerPerLevel
+  - defPenetration
+  - durationRounds
+  - stackRule
+  - dispellable
+  - oncePerBattle
+  - effectType
+  - effectValue
+  - effect2Type
+  - effect2Value
+  - effect3Type
+  - effect3Value
+  - description
+  rows:
+  - values:
+    - skill_anchor_rage
+    - "\u94A2\u94C1\u58C1\u5792"
+    - rage
+    - anchor
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 2
+    - refresh
+    - 1
+    - 0
+    - taunt
+    - 1
+    - damageReduction
+    - 30
+    - 
+    - 0
+    - "\u5632\u8BBD 2 \u56DE\u5408\uFF0C\u81EA\u8EAB\u51CF\u4F24 +30%"
+  - values:
+    - skill_anchor_passive
+    - "\u539A\u88C5\u7532"
+    - passive
+    - anchor
+    - 
+    - on_hit
+    - 
+    - 
+    - 10
+    - 1
+    - 0
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - reflect
+    - 30
+    - 
+    - 0
+    - 
+    - 0
+    - "\u53D7\u51FB\u65F6 10% \u6982\u7387\u53CD\u4F24 30%"
+  - values:
+    - skill_anchor_flagship
+    - "\u8054\u90A6\u9632\u7EBF"
+    - flagship
+    - anchor
+    - 
+    - round_3_then_4
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 3
+    - refresh
+    - 1
+    - 0
+    - damageReduction
+    - 10
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u51CF\u4F24 +10%\uFF0C3 \u56DE\u5408"
+  - values:
+    - skill_blue_rage
+    - "\u8230\u8F7D\u673A\u7A7A\u88AD"
+    - rage
+    - blue
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - randomEnemy3
+    - 120
+    - 8
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u968F\u673A 3 \u4E2A\u76EE\u6807\u5404 120%"
+  - values:
+    - skill_blue_passive
+    - "\u5236\u7A7A"
+    - passive
+    - blue
+    - 
+    - after_attack
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - singleEnemy
+    - 40
+    - 3
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u666E\u653B\u8FFD\u52A0\u4E00\u6B21 40% \u7684\u8230\u8F7D\u673A\u653B\u51FB"
+  - values:
+    - skill_blue_flagship
+    - "\u6218\u673A\u8D77\u98DE"
+    - flagship
+    - blue
+    - 
+    - round_3_then_4
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allEnemies
+    - 80
+    - 6
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u7ACB\u5373\u5BF9\u5168\u4F53\u654C\u4EBA\u9020\u6210 80% \u4F24\u5BB3"
+  - values:
+    - skill_red_rage
+    - "\u9F50\u5C04\u9C7C\u96F7"
+    - rage
+    - red
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - singleEnemy
+    - 260
+    - 16
+    - 30
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5355\u4F53 260%\uFF0C\u65E0\u89C6 30% DEF"
+  - values:
+    - skill_red_passive
+    - "\u6DF1\u6F5C"
+    - passive
+    - red
+    - 
+    - always
+    - targetHpAbove
+    - 70
+    - 100
+    - 0
+    - 0
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - critRate
+    - 10
+    - damageUp
+    - 15
+    - 
+    - 0
+    - "\u66B4\u51FB\u7387 +10%\uFF0C\u5BF9\u8010\u4E45 >70% \u7684\u76EE\u6807\u589E\u4F24
+      15%"
+  - values:
+    - skill_red_flagship
+    - "\u96F7\u5E55"
+    - flagship
+    - red
+    - 
+    - round_3_then_4
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 3
+    - refresh
+    - 1
+    - 0
+    - critDmg
+    - 20
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u66B4\u51FB\u4F24\u5BB3 +20%\uFF0C3 \u56DE\u5408"
+  - values:
+    - skill_green_rage
+    - "\u6218\u5730\u4FEE\u590D"
+    - rage
+    - green
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - lowestAlly
+    - 200
+    - 12
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - cleanse
+    - 1
+    - 
+    - 0
+    - 
+    - 0
+    - "\u6CBB\u7597\u6700\u4F4E\u8010\u4E45\u53CB\u519B ATK\xD7200%\uFF0C\u51C0\u5316
+      1 \u4E2A\u8D1F\u9762"
+  - values:
+    - skill_green_passive
+    - "\u7535\u5B50\u5E72\u6270"
+    - passive
+    - green
+    - 
+    - after_action
+    - 
+    - 
+    - 20
+    - 1
+    - 0
+    - 0
+    - randomEnemy
+    - 0
+    - 0
+    - 0
+    - 2
+    - refresh
+    - 1
+    - 0
+    - spdDown
+    - 15
+    - 
+    - 0
+    - 
+    - 0
+    - "\u884C\u52A8\u540E 20% \u6982\u7387\u4F7F\u968F\u673A\u654C\u4EBA SPD \u221215%\uFF0C2
+      \u56DE\u5408"
+  - values:
+    - skill_green_flagship
+    - "\u8865\u7ED9\u7EBF"
+    - flagship
+    - green
+    - 
+    - round_3_then_4
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 60
+    - 4
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - rageGain
+    - 20
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u56DE\u590D ATK\xD760%\uFF0C\u6012\u6C14 +20"
+  - values:
+    - skill_ss_anchor
+    - "\u4E0D\u6C89\u4E4B\u951A"
+    - exclusive
+    - anchor
+    - ship_anchor_04
+    - battle_start
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - shield
+    - 25
+    - damageReduction
+    - 15
+    - damageReduction
+    - 10
+    - "\u5F00\u573A\u62A4\u76FE 25% \u6700\u5927\u8010\u4E45\uFF1B\u62A4\u76FE\u5B58\u5728\u65F6\u81EA\u8EAB\u51CF\u4F24
+      +15%\uFF1B\u62A4\u76FE\u7834\u788E\u65F6\u5168\u961F\u51CF\u4F24 +10%\uFF0C2
+      \u56DE\u5408"
+  - values:
+    - skill_ss_blue
+    - "\u5236\u7A7A\u6743"
+    - exclusive
+    - blue
+    - ship_blue_04
+    - round_3_6_9
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allEnemies
+    - 60
+    - 4
+    - 0
+    - 2
+    - refresh
+    - 1
+    - 0
+    - spdDown
+    - 10
+    - 
+    - 0
+    - 
+    - 0
+    - "\u7B2C 3\u30016\u30019\u2026\u56DE\u5408\u5F00\u59CB\u65F6\uFF0C\u5BF9\u5168\u4F53\u654C\u4EBA\u9020\u6210
+      60% \u653B\u51FB\u4F24\u5BB3\uFF0C\u5E76\u4F7F\u5176 SPD \u221210%\uFF0C\u6301\u7EED
+      2 \u56DE\u5408"
+  - values:
+    - skill_ss_red
+    - "\u730E\u6740\u672C\u80FD"
+    - exclusive
+    - red
+    - ship_red_04
+    - always
+    - targetHpBelow
+    - 40
+    - 100
+    - 0
+    - 0
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - critRate
+    - 30
+    - critDmg
+    - 50
+    - rageGain
+    - 50
+    - "\u5BF9\u8010\u4E45 <40% \u7684\u76EE\u6807\u66B4\u51FB\u7387 +30%\u3001\u66B4\u51FB\u4F24\u5BB3
+      +50%\uFF1B\u51FB\u6740\u76EE\u6807\u540E\u7ACB\u5373\u83B7\u5F97 50 \u6012\u6C14"
+  - values:
+    - skill_ss_green
+    - "\u6F6E\u6C50\u795D\u798F"
+    - exclusive
+    - green
+    - ship_green_03
+    - on_heal
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - stack_3
+    - 1
+    - 1
+    - damageReduction
+    - 5
+    - immunity
+    - 1
+    - 
+    - 0
+    - "\u6BCF\u6B21\u6CBB\u7597\u4F7F\u76EE\u6807\u83B7\u5F97 5% \u51CF\u4F24\uFF0C\u6700\u591A
+      3 \u5C42\uFF1B\u6BCF\u573A\u4E00\u6B21\uFF0C\u53CB\u519B\u9996\u6B21\u81F4\u547D\u4F24\u5BB3\u514D\u75AB\u5E76\u56DE\u590D
+      20% \u6700\u5927\u8010\u4E45"
+  - values:
+    - skill_combo_anchor
+    - "\u94DC\u5899\u94C1\u58C1"
+    - combo
+    - anchor
+    - 
+    - combo
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 3
+    - refresh
+    - 1
+    - 1
+    - shield
+    - 20
+    - damageReduction
+    - 15
+    - 
+    - 0
+    - "\u5168\u961F\u6BCF\u4EBA\u83B7\u5F97\u81EA\u8EAB\u6700\u5927\u8010\u4E45 20%
+      \u7684\u62A4\u76FE\uFF0C3 \u56DE\u5408\uFF1B\u671F\u95F4\u5168\u961F\u51CF\u4F24
+      +15%"
+  - values:
+    - skill_combo_blue
+    - "\u9971\u548C\u7A7A\u88AD"
+    - combo
+    - blue
+    - 
+    - combo
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allEnemies
+    - 120
+    - 8
+    - 0
+    - 2
+    - refresh
+    - 1
+    - 1
+    - spdDown
+    - 10
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5BF9\u5168\u4F53\u654C\u4EBA\u9020\u6210 120% \u653B\u51FB\u4F24\u5BB3\uFF0C\u5E76\u4F7F\u5176
+      SPD \u221210%\uFF0C\u6301\u7EED 2 \u56DE\u5408"
+  - values:
+    - skill_combo_red
+    - "\u53CC\u96F7\u9F50\u5C04"
+    - combo
+    - red
+    - 
+    - combo
+    - targetHpBelow
+    - 40
+    - 100
+    - 0
+    - 0
+    - 0
+    - highestHpEnemy
+    - 380
+    - 24
+    - 40
+    - 0
+    - refresh
+    - 1
+    - 1
+    - critRate
+    - 50
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5BF9\u5F53\u524D\u8010\u4E45\u6700\u9AD8\u7684\u654C\u4EBA\u9020\u6210 380%
+      \u4F24\u5BB3\uFF0C\u65E0\u89C6 40% DEF\uFF1B\u76EE\u6807\u8010\u4E45 <40% \u65F6\u66B4\u51FB\u7387
+      +50%"
+  - values:
+    - skill_combo_green
+    - "\u751F\u547D\u4E4B\u6F6E"
+    - combo
+    - green
+    - 
+    - combo
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 150
+    - 10
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 1
+    - cleanse
+    - 99
+    - rageGain
+    - 20
+    - 
+    - 0
+    - "\u5168\u961F\u56DE\u590D\u65BD\u653E\u8005 ATK\xD7150% \u7684\u8010\u4E45\uFF0C\u51C0\u5316\u5168\u90E8\u51CF\u76CA\uFF0C\u6012\u6C14
+      +20"
+  - values:
+    - skill_cap_anchor_01
+    - "\u94C1\u58C1\u6307\u6325"
+    - passive
+    - anchor
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - damageReduction
+    - 5
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u51CF\u4F24 +5%"
+  - values:
+    - skill_cap_anchor_02
+    - "\u951A\u5B9A"
+    - passive
+    - anchor
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - defUp
+    - 10
+    - 
+    - 0
+    - 
+    - 0
+    - "\u81EA\u8EAB\u9632\u5FA1 +10%"
+  - values:
+    - skill_cap_blue_01
+    - "\u822A\u7A7A\u6307\u6325"
+    - passive
+    - blue
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - atkUp
+    - 5
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u653B\u51FB +5%"
+  - values:
+    - skill_cap_blue_02
+    - "\u7CBE\u51C6\u7A7A\u88AD"
+    - passive
+    - blue
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - backRowAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - atkUp
+    - 8
+    - 
+    - 0
+    - 
+    - 0
+    - "\u540E\u6392\u653B\u51FB +8%"
+  - values:
+    - skill_cap_red_01
+    - "\u9C7C\u96F7\u6307\u6325"
+    - passive
+    - red
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - critRate
+    - 3
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u66B4\u51FB\u7387 +3%"
+  - values:
+    - skill_cap_red_02
+    - "\u730E\u624B"
+    - passive
+    - red
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - self
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - critDmg
+    - 15
+    - 
+    - 0
+    - 
+    - 0
+    - "\u81EA\u8EAB\u66B4\u51FB\u4F24\u5BB3 +15%"
+  - values:
+    - skill_cap_green_01
+    - "\u533B\u7597\u6307\u6325"
+    - passive
+    - green
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - healUp
+    - 10
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u6CBB\u7597\u91CF +10%"
+  - values:
+    - skill_cap_green_02
+    - "\u987A\u98CE"
+    - passive
+    - green
+    - 
+    - always
+    - 
+    - 
+    - 100
+    - 0
+    - 0
+    - 0
+    - allAllies
+    - 0
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - spdUp
+    - 5
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u961F\u901F\u5EA6 +5%"
+  - values:
+    - skill_enemy_heavy
+    - "\u91CD\u88C5\u51B2\u649E"
+    - rage
+    - enemy
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - singleEnemy
+    - 150
+    - 0
+    - 0
+    - 2
+    - refresh
+    - 1
+    - 0
+    - defUp
+    - 20
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5355\u4F53 150%\uFF0C\u81EA\u8EAB\u9632\u5FA1 +20%\uFF0C2 \u56DE\u5408"
+  - values:
+    - skill_enemy_swarm
+    - "\u96C6\u7FA4\u7A81\u88AD"
+    - rage
+    - enemy
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - randomEnemy3
+    - 80
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u968F\u673A 3 \u4E2A\u76EE\u6807\u5404 80%"
+  - values:
+    - skill_enemy_gunboat
+    - "\u901F\u5C04\u70AE\u51FB"
+    - rage
+    - enemy
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - singleEnemy
+    - 180
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5355\u4F53 180%"
+  - values:
+    - skill_enemy_jammer
+    - "\u5E72\u6270\u8109\u51B2"
+    - rage
+    - enemy
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - allEnemies
+    - 0
+    - 0
+    - 0
+    - 2
+    - refresh
+    - 1
+    - 0
+    - spdDown
+    - 10
+    - dot
+    - 30
+    - 
+    - 0
+    - "\u5168\u4F53 SPD \u221210%\uFF0C\u5E76\u9644\u52A0\u6301\u7EED\u4F24\u5BB3\uFF0C2
+      \u56DE\u5408"
+  - values:
+    - skill_enemy_carrier
+    - "\u8230\u8F7D\u673A\u652F\u63F4"
+    - rage
+    - enemy
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - allEnemies
+    - 90
+    - 0
+    - 0
+    - 0
+    - refresh
+    - 1
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u4F53 90%"
+  - values:
+    - skill_enemy_boss
+    - "\u6DF1\u6E0A\u70AE\u51FB"
+    - rage
+    - enemy
+    - 
+    - rage_full
+    - 
+    - 
+    - 100
+    - 0
+    - 100
+    - 0
+    - allEnemies
+    - 140
+    - 0
+    - 0
+    - 1
+    - refresh
+    - 1
+    - 0
+    - stun
+    - 1
+    - 
+    - 0
+    - 
+    - 0
+    - "\u5168\u4F53 140%\uFF0C\u7729\u6655 1 \u56DE\u5408"

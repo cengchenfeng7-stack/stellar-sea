@@ -1,0 +1,578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: building
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: building
+  idColumn: id
+  headers:
+  - id
+  - name
+  - level
+  - costGold
+  - costMaterial
+  - costTimeMinutes
+  - effectType
+  - effectValue
+  - unlockBaseLevel
+  - description
+  rows:
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 1
+    - 0
+    - 0
+    - 0
+    - buildingLevelCap
+    - 1
+    - 1
+    - "\u57FA\u5730 1 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 2
+    - 2000
+    - 20
+    - 5
+    - buildingLevelCap
+    - 2
+    - 2
+    - "\u57FA\u5730 2 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 3
+    - 3200
+    - 32
+    - 9
+    - buildingLevelCap
+    - 3
+    - 3
+    - "\u57FA\u5730 3 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 4
+    - 5120
+    - 51
+    - 16
+    - buildingLevelCap
+    - 4
+    - 4
+    - "\u57FA\u5730 4 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 5
+    - 8192
+    - 82
+    - 29
+    - buildingLevelCap
+    - 5
+    - 5
+    - "\u57FA\u5730 5 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 6
+    - 13107
+    - 131
+    - 52
+    - buildingLevelCap
+    - 6
+    - 6
+    - "\u57FA\u5730 6 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 7
+    - 20972
+    - 210
+    - 94
+    - buildingLevelCap
+    - 7
+    - 7
+    - "\u57FA\u5730 7 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 8
+    - 33554
+    - 336
+    - 170
+    - buildingLevelCap
+    - 8
+    - 8
+    - "\u57FA\u5730 8 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 9
+    - 53687
+    - 537
+    - 306
+    - buildingLevelCap
+    - 9
+    - 9
+    - "\u57FA\u5730 9 \u7EA7"
+  - values:
+    - building_base
+    - "\u57FA\u5730"
+    - 10
+    - 85899
+    - 859
+    - 551
+    - buildingLevelCap
+    - 10
+    - 10
+    - "\u57FA\u5730 10 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 1
+    - 0
+    - 0
+    - 0
+    - shipSlots
+    - 20
+    - 1
+    - "\u8239\u575E 1 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 2
+    - 2000
+    - 20
+    - 5
+    - shipSlots
+    - 22
+    - 2
+    - "\u8239\u575E 2 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 3
+    - 3200
+    - 32
+    - 9
+    - shipSlots
+    - 24
+    - 3
+    - "\u8239\u575E 3 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 4
+    - 5120
+    - 51
+    - 16
+    - shipSlots
+    - 26
+    - 4
+    - "\u8239\u575E 4 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 5
+    - 8192
+    - 82
+    - 29
+    - shipSlots
+    - 28
+    - 5
+    - "\u8239\u575E 5 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 6
+    - 13107
+    - 131
+    - 52
+    - shipSlots
+    - 30
+    - 6
+    - "\u8239\u575E 6 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 7
+    - 20972
+    - 210
+    - 94
+    - shipSlots
+    - 32
+    - 7
+    - "\u8239\u575E 7 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 8
+    - 33554
+    - 336
+    - 170
+    - shipSlots
+    - 34
+    - 8
+    - "\u8239\u575E 8 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 9
+    - 53687
+    - 537
+    - 306
+    - shipSlots
+    - 36
+    - 9
+    - "\u8239\u575E 9 \u7EA7"
+  - values:
+    - building_shipyard
+    - "\u8239\u575E"
+    - 10
+    - 85899
+    - 859
+    - 551
+    - shipSlots
+    - 38
+    - 10
+    - "\u8239\u575E 10 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 1
+    - 0
+    - 0
+    - 0
+    - remodelTierMax
+    - 1
+    - 1
+    - "\u7814\u7A76\u6240 1 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 2
+    - 2000
+    - 20
+    - 5
+    - remodelTierMax
+    - 1
+    - 2
+    - "\u7814\u7A76\u6240 2 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 3
+    - 3200
+    - 32
+    - 9
+    - remodelTierMax
+    - 2
+    - 3
+    - "\u7814\u7A76\u6240 3 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 4
+    - 5120
+    - 51
+    - 16
+    - remodelTierMax
+    - 2
+    - 4
+    - "\u7814\u7A76\u6240 4 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 5
+    - 8192
+    - 82
+    - 29
+    - remodelTierMax
+    - 3
+    - 5
+    - "\u7814\u7A76\u6240 5 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 6
+    - 13107
+    - 131
+    - 52
+    - remodelTierMax
+    - 3
+    - 6
+    - "\u7814\u7A76\u6240 6 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 7
+    - 20972
+    - 210
+    - 94
+    - remodelTierMax
+    - 4
+    - 7
+    - "\u7814\u7A76\u6240 7 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 8
+    - 33554
+    - 336
+    - 170
+    - remodelTierMax
+    - 4
+    - 8
+    - "\u7814\u7A76\u6240 8 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 9
+    - 53687
+    - 537
+    - 306
+    - remodelTierMax
+    - 4
+    - 9
+    - "\u7814\u7A76\u6240 9 \u7EA7"
+  - values:
+    - building_research
+    - "\u7814\u7A76\u6240"
+    - 10
+    - 85899
+    - 859
+    - 551
+    - remodelTierMax
+    - 4
+    - 10
+    - "\u7814\u7A76\u6240 10 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 1
+    - 0
+    - 0
+    - 0
+    - storageCap
+    - 10000
+    - 1
+    - "\u4ED3\u5E93 1 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 2
+    - 2000
+    - 20
+    - 5
+    - storageCap
+    - 20000
+    - 2
+    - "\u4ED3\u5E93 2 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 3
+    - 3200
+    - 32
+    - 9
+    - storageCap
+    - 30000
+    - 3
+    - "\u4ED3\u5E93 3 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 4
+    - 5120
+    - 51
+    - 16
+    - storageCap
+    - 40000
+    - 4
+    - "\u4ED3\u5E93 4 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 5
+    - 8192
+    - 82
+    - 29
+    - storageCap
+    - 50000
+    - 5
+    - "\u4ED3\u5E93 5 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 6
+    - 13107
+    - 131
+    - 52
+    - storageCap
+    - 60000
+    - 6
+    - "\u4ED3\u5E93 6 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 7
+    - 20972
+    - 210
+    - 94
+    - storageCap
+    - 70000
+    - 7
+    - "\u4ED3\u5E93 7 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 8
+    - 33554
+    - 336
+    - 170
+    - storageCap
+    - 80000
+    - 8
+    - "\u4ED3\u5E93 8 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 9
+    - 53687
+    - 537
+    - 306
+    - storageCap
+    - 90000
+    - 9
+    - "\u4ED3\u5E93 9 \u7EA7"
+  - values:
+    - building_warehouse
+    - "\u4ED3\u5E93"
+    - 10
+    - 85899
+    - 859
+    - 551
+    - storageCap
+    - 100000
+    - 10
+    - "\u4ED3\u5E93 10 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 1
+    - 0
+    - 0
+    - 0
+    - freightReductionPct
+    - 2
+    - 1
+    - "\u8D38\u6613\u6240 1 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 2
+    - 2000
+    - 20
+    - 5
+    - freightReductionPct
+    - 4
+    - 2
+    - "\u8D38\u6613\u6240 2 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 3
+    - 3200
+    - 32
+    - 9
+    - freightReductionPct
+    - 6
+    - 3
+    - "\u8D38\u6613\u6240 3 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 4
+    - 5120
+    - 51
+    - 16
+    - freightReductionPct
+    - 8
+    - 4
+    - "\u8D38\u6613\u6240 4 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 5
+    - 8192
+    - 82
+    - 29
+    - freightReductionPct
+    - 10
+    - 5
+    - "\u8D38\u6613\u6240 5 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 6
+    - 13107
+    - 131
+    - 52
+    - freightReductionPct
+    - 12
+    - 6
+    - "\u8D38\u6613\u6240 6 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 7
+    - 20972
+    - 210
+    - 94
+    - freightReductionPct
+    - 14
+    - 7
+    - "\u8D38\u6613\u6240 7 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 8
+    - 33554
+    - 336
+    - 170
+    - freightReductionPct
+    - 16
+    - 8
+    - "\u8D38\u6613\u6240 8 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 9
+    - 53687
+    - 537
+    - 306
+    - freightReductionPct
+    - 18
+    - 9
+    - "\u8D38\u6613\u6240 9 \u7EA7"
+  - values:
+    - building_trade
+    - "\u8D38\u6613\u6240"
+    - 10
+    - 85899
+    - 859
+    - 551
+    - freightReductionPct
+    - 20
+    - 10
+    - "\u8D38\u6613\u6240 10 \u7EA7"

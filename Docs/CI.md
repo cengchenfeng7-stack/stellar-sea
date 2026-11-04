@@ -54,6 +54,7 @@ https://github.com/cengchenfeng7-stack/stellar-sea/settings/secrets/actions
 
 - 仓库根目录是 `F:\群星海战`，Unity 工程在 `群星海战/` 子目录。
 - `projectPath` 必须是 `群星海战`，不是仓库根目录。
+- game-ci 会把导出目录整体放进 `buildsPath`，实际 Xcode 工程在 `build/iOS/iOS/Unity-iPhone.xcodeproj`；workflow 用 `find` 递归定位，不要写死单层路径。
 - 缓存路径是 `群星海战/Library`。
 - Unity 版本从 `群星海战/ProjectSettings/ProjectVersion.txt` 读取，当前为 `6000.3.27f1`。
 - 首次构建会安装 Unity Hub 和 Editor，耗时较长；`cacheUnityInstallationOnMac` 会缓存安装。

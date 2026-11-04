@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: ship
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: ship
+  idColumn: id
+  headers:
+  - id
+  - name
+  - faction
+  - quality
+  - role
+  - isTradeShip
+  - hp
+  - atk
+  - def
+  - spd
+  - critRate
+  - critDmg
+  - growth
+  - slots
+  - rageSkillId
+  - passiveSkillId
+  - exclusiveSkillId
+  - flagshipSkillId
+  - capacity
+  - speed
+  - buyPrice
+  - unlockTradeLevel
+  - description
+  rows:
+  - values:
+    - ship_anchor_01
+    - "\u94C1\u951A\u53F7"
+    - anchor
+    - B
+    - "\u524D\u6392\u627F\u4F24"
+    - 0
+    - 1000
+    - 100
+    - 50
+    - 95
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u9632\u7A7A|\u8BBE\u5907"
+    - skill_anchor_rage
+    - 
+    - 
+    - skill_anchor_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u94C1\u951A\u8054\u90A6 B \u524D\u6392\u627F\u4F24"
+  - values:
+    - ship_anchor_02
+    - "\u5821\u5792"
+    - anchor
+    - A
+    - "\u524D\u6392\u5632\u8BBD"
+    - 0
+    - 1300
+    - 130
+    - 65
+    - 95
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u8BBE\u5907"
+    - skill_anchor_rage
+    - skill_anchor_passive
+    - 
+    - skill_anchor_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u94C1\u951A\u8054\u90A6 A \u524D\u6392\u5632\u8BBD"
+  - values:
+    - ship_anchor_03
+    - "\u91CD\u9524"
+    - anchor
+    - S
+    - "\u524D\u6392\u53CD\u4F24"
+    - 0
+    - 1700
+    - 170
+    - 85
+    - 95
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u9C7C\u96F7|\u8BBE\u5907"
+    - skill_anchor_rage
+    - skill_anchor_passive
+    - 
+    - skill_anchor_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u94C1\u951A\u8054\u90A6 S \u524D\u6392\u53CD\u4F24"
+  - values:
+    - ship_anchor_04
+    - "\u94C1\u58C1"
+    - anchor
+    - SS
+    - "\u524D\u6392\u62A4\u76FE"
+    - 0
+    - 2200
+    - 220
+    - 110
+    - 95
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u9C7C\u96F7|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_anchor_rage
+    - skill_anchor_passive
+    - skill_ss_anchor
+    - skill_anchor_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u94C1\u951A\u8054\u90A6 SS \u524D\u6392\u62A4\u76FE"
+  - values:
+    - ship_blue_01
+    - "\u84DD\u7FFC"
+    - blue
+    - B
+    - "\u540E\u6392\u8F93\u51FA"
+    - 0
+    - 1000
+    - 100
+    - 50
+    - 105
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u9C7C\u96F7|\u8BBE\u5907"
+    - skill_blue_rage
+    - 
+    - 
+    - skill_blue_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u84DD\u6F6E\u540C\u76DF B \u540E\u6392\u8F93\u51FA"
+  - values:
+    - ship_blue_02
+    - "\u5929\u7A7A"
+    - blue
+    - A
+    - "\u540E\u6392\u7FA4\u653B"
+    - 0
+    - 1300
+    - 130
+    - 65
+    - 105
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9C7C\u96F7|\u8230\u8F7D\u673A"
+    - skill_blue_rage
+    - skill_blue_passive
+    - 
+    - skill_blue_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u84DD\u6F6E\u540C\u76DF A \u540E\u6392\u7FA4\u653B"
+  - values:
+    - ship_blue_03
+    - "\u6D77\u9E25"
+    - blue
+    - S
+    - "\u540E\u6392\u8230\u8F7D\u673A"
+    - 0
+    - 1700
+    - 170
+    - 85
+    - 105
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u9C7C\u96F7|\u8230\u8F7D\u673A"
+    - skill_blue_rage
+    - skill_blue_passive
+    - 
+    - skill_blue_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u84DD\u6F6E\u540C\u76DF S \u540E\u6392\u8230\u8F7D\u673A"
+  - values:
+    - ship_blue_04
+    - "\u82CD\u7A79"
+    - blue
+    - SS
+    - "\u540E\u6392\u5236\u7A7A"
+    - 0
+    - 2200
+    - 220
+    - 110
+    - 105
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u9C7C\u96F7|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_blue_rage
+    - skill_blue_passive
+    - skill_ss_blue
+    - skill_blue_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u84DD\u6F6E\u540C\u76DF SS \u540E\u6392\u5236\u7A7A"
+  - values:
+    - ship_red_01
+    - "\u8D64\u5F71"
+    - red
+    - B
+    - "\u540E\u6392\u7206\u53D1"
+    - 0
+    - 1000
+    - 100
+    - 50
+    - 100
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u9C7C\u96F7|\u8BBE\u5907"
+    - skill_red_rage
+    - 
+    - 
+    - skill_red_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u8D64\u6F6E\u5E1D\u56FD B \u540E\u6392\u7206\u53D1"
+  - values:
+    - ship_red_02
+    - "\u6F5C\u4F0F\u8005"
+    - red
+    - A
+    - "\u540E\u6392\u5355\u4F53"
+    - 0
+    - 1300
+    - 130
+    - 65
+    - 100
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u9C7C\u96F7|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_red_rage
+    - skill_red_passive
+    - 
+    - skill_red_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u8D64\u6F6E\u5E1D\u56FD A \u540E\u6392\u5355\u4F53"
+  - values:
+    - ship_red_03
+    - "\u5315\u9996"
+    - red
+    - S
+    - "\u540E\u6392\u66B4\u51FB"
+    - 0
+    - 1700
+    - 170
+    - 85
+    - 100
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9C7C\u96F7|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_red_rage
+    - skill_red_passive
+    - 
+    - skill_red_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u8D64\u6F6E\u5E1D\u56FD S \u540E\u6392\u66B4\u51FB"
+  - values:
+    - ship_red_04
+    - "\u8840\u9CA8"
+    - red
+    - SS
+    - "\u540E\u6392\u65A9\u6740"
+    - 0
+    - 2200
+    - 220
+    - 110
+    - 100
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u9C7C\u96F7|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_red_rage
+    - skill_red_passive
+    - skill_ss_red
+    - skill_red_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u8D64\u6F6E\u5E1D\u56FD SS \u540E\u6392\u65A9\u6740"
+  - values:
+    - ship_green_01
+    - "\u7FE1\u7FE0"
+    - green
+    - A
+    - "\u540E\u6392\u6CBB\u7597"
+    - 0
+    - 1300
+    - 130
+    - 65
+    - 110
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u9632\u7A7A|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_green_rage
+    - skill_green_passive
+    - 
+    - skill_green_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u7FE1\u7FE0\u5171\u548C\u56FD A \u540E\u6392\u6CBB\u7597"
+  - values:
+    - ship_green_02
+    - "\u5FAE\u98CE"
+    - green
+    - S
+    - "\u540E\u6392\u589E\u76CA"
+    - 0
+    - 1700
+    - 170
+    - 85
+    - 110
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_green_rage
+    - skill_green_passive
+    - 
+    - skill_green_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u7FE1\u7FE0\u5171\u548C\u56FD S \u540E\u6392\u589E\u76CA"
+  - values:
+    - ship_green_03
+    - "\u6668\u661F"
+    - green
+    - SS
+    - "\u540E\u6392\u652F\u63F4"
+    - 0
+    - 2200
+    - 220
+    - 110
+    - 110
+    - 5
+    - 150
+    - 0.08
+    - "\u4E3B\u70AE|\u526F\u70AE|\u9632\u7A7A|\u9C7C\u96F7|\u8BBE\u5907|\u8230\u8F7D\u673A"
+    - skill_green_rage
+    - skill_green_passive
+    - skill_ss_green
+    - skill_green_flagship
+    - 0
+    - 0
+    - 0
+    - 0
+    - "\u7FE1\u7FE0\u5171\u548C\u56FD SS \u540E\u6392\u652F\u63F4"
+  - values:
+    - ship_trade_small
+    - "\u5C0F\u578B\u8D38\u6613\u8239"
+    - neutral
+    - B
+    - "\u8D38\u6613"
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 100
+    - 1
+    - 0
+    - 0
+    - "\u8D38\u6613\u8239\uFF0C\u4E0D\u53C2\u4E0E\u6218\u6597"
+  - values:
+    - ship_trade_medium
+    - "\u4E2D\u578B\u8D38\u6613\u8239"
+    - neutral
+    - A
+    - "\u8D38\u6613"
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 250
+    - 0.9
+    - 50000
+    - 3
+    - "\u8D38\u6613\u8239\uFF0C\u4E0D\u53C2\u4E0E\u6218\u6597"
+  - values:
+    - ship_trade_large
+    - "\u5927\u578B\u8D38\u6613\u8239"
+    - neutral
+    - S
+    - "\u8D38\u6613"
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 600
+    - 0.8
+    - 200000
+    - 6
+    - "\u8D38\u6613\u8239\uFF0C\u4E0D\u53C2\u4E0E\u6218\u6597"

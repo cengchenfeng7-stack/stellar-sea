@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: enemy
+  idColumn: id
+  headers:
+  - id
+  - name
+  - archetype
+  - faction
+  - hp
+  - atk
+  - def
+  - spd
+  - critRate
+  - critDmg
+  - skillId
+  - lootTableId
+  - isBoss
+  - role
+  - power
+  - description
+  rows:
+  - values:
+    - enemy_heavy_1
+    - "\u91CD\u88C5\u8230\xB7I"
+    - heavy
+    - enemy
+    - 2600
+    - 90
+    - 120
+    - 90
+    - 5
+    - 150
+    - skill_enemy_heavy
+    - loot_enemy
+    - 0
+    - "\u524D\u6392\u5766\u514B"
+    - 770
+    - "\u654C\u65B9 \u91CD\u88C5\u8230 I \u578B"
+  - values:
+    - enemy_heavy_2
+    - "\u91CD\u88C5\u8230\xB7II"
+    - heavy
+    - enemy
+    - 2990
+    - 103
+    - 138
+    - 90
+    - 5
+    - 150
+    - skill_enemy_heavy
+    - loot_enemy
+    - 0
+    - "\u524D\u6392\u5766\u514B"
+    - 885
+    - "\u654C\u65B9 \u91CD\u88C5\u8230 II \u578B"
+  - values:
+    - enemy_swarm_1
+    - "\u96C6\u7FA4\u8230\xB7I"
+    - swarm
+    - enemy
+    - 900
+    - 70
+    - 40
+    - 115
+    - 5
+    - 150
+    - skill_enemy_swarm
+    - loot_enemy
+    - 0
+    - "\u6570\u91CF\u538B\u5236"
+    - 352
+    - "\u654C\u65B9 \u96C6\u7FA4\u8230 I \u578B"
+  - values:
+    - enemy_swarm_2
+    - "\u96C6\u7FA4\u8230\xB7II"
+    - swarm
+    - enemy
+    - 1035
+    - 81
+    - 46
+    - 115
+    - 5
+    - 150
+    - skill_enemy_swarm
+    - loot_enemy
+    - 0
+    - "\u6570\u91CF\u538B\u5236"
+    - 406
+    - "\u654C\u65B9 \u96C6\u7FA4\u8230 II \u578B"
+  - values:
+    - enemy_gunboat_1
+    - "\u70AE\u8247\xB7I"
+    - gunboat
+    - enemy
+    - 1400
+    - 130
+    - 60
+    - 105
+    - 5
+    - 150
+    - skill_enemy_gunboat
+    - loot_enemy
+    - 0
+    - "\u5355\u4F53\u8F93\u51FA"
+    - 561
+    - "\u654C\u65B9 \u70AE\u8247 I \u578B"
+  - values:
+    - enemy_gunboat_2
+    - "\u70AE\u8247\xB7II"
+    - gunboat
+    - enemy
+    - 1610
+    - 150
+    - 69
+    - 105
+    - 5
+    - 150
+    - skill_enemy_gunboat
+    - loot_enemy
+    - 0
+    - "\u5355\u4F53\u8F93\u51FA"
+    - 646
+    - "\u654C\u65B9 \u70AE\u8247 II \u578B"
+  - values:
+    - enemy_jammer_1
+    - "\u5E72\u6270\u8230\xB7I"
+    - jammer
+    - enemy
+    - 1200
+    - 80
+    - 50
+    - 110
+    - 5
+    - 150
+    - skill_enemy_jammer
+    - loot_enemy
+    - 0
+    - "\u51CF\u76CA"
+    - 433
+    - "\u654C\u65B9 \u5E72\u6270\u8230 I \u578B"
+  - values:
+    - enemy_jammer_2
+    - "\u5E72\u6270\u8230\xB7II"
+    - jammer
+    - enemy
+    - 1380
+    - 92
+    - 57
+    - 110
+    - 5
+    - 150
+    - skill_enemy_jammer
+    - loot_enemy
+    - 0
+    - "\u51CF\u76CA"
+    - 497
+    - "\u654C\u65B9 \u5E72\u6270\u8230 II \u578B"
+  - values:
+    - enemy_carrier_1
+    - "\u822A\u6BCD\xB7I"
+    - carrier
+    - enemy
+    - 1600
+    - 110
+    - 55
+    - 100
+    - 5
+    - 150
+    - skill_enemy_carrier
+    - loot_enemy
+    - 0
+    - "\u7FA4\u653B"
+    - 542
+    - "\u654C\u65B9 \u822A\u6BCD I \u578B"
+  - values:
+    - enemy_carrier_2
+    - "\u822A\u6BCD\xB7II"
+    - carrier
+    - enemy
+    - 1840
+    - 126
+    - 63
+    - 100
+    - 5
+    - 150
+    - skill_enemy_carrier
+    - loot_enemy
+    - 0
+    - "\u7FA4\u653B"
+    - 622
+    - "\u654C\u65B9 \u822A\u6BCD II \u578B"
+  - values:
+    - enemy_boss_ch1
+    - "\u6DF1\u6E0A\u5DE1\u6D0B\u8230"
+    - boss
+    - enemy
+    - 6240
+    - 216
+    - 288
+    - 90
+    - 8
+    - 160
+    - skill_enemy_boss
+    - loot_boss
+    - 1
+    - "\u7AE0\u8282 BOSS"
+    - 1939
+    - "\u7B2C 1 \u7AE0 BOSS"
+  - values:
+    - enemy_boss_ch2
+    - "\u6DF1\u6E0A\u6218\u5217\u8230"
+    - boss
+    - enemy
+    - 6240
+    - 216
+    - 288
+    - 90
+    - 8
+    - 160
+    - skill_enemy_boss
+    - loot_boss
+    - 1
+    - "\u7AE0\u8282 BOSS"
+    - 1939
+    - "\u7B2C 2 \u7AE0 BOSS"
+  - values:
+    - enemy_boss_ch3
+    - "\u6DF1\u6E0A\u822A\u6BCD"
+    - boss
+    - enemy
+    - 6240
+    - 216
+    - 288
+    - 90
+    - 8
+    - 160
+    - skill_enemy_boss
+    - loot_boss
+    - 1
+    - "\u7AE0\u8282 BOSS"
+    - 1939
+    - "\u7B2C 3 \u7AE0 BOSS"
+  - values:
+    - enemy_boss_ch4
+    - "\u6DF1\u6E0A\u8981\u585E"
+    - boss
+    - enemy
+    - 6240
+    - 216
+    - 288
+    - 90
+    - 8
+    - 160
+    - skill_enemy_boss
+    - loot_boss
+    - 1
+    - "\u7AE0\u8282 BOSS"
+    - 1939
+    - "\u7B2C 4 \u7AE0 BOSS"
+  - values:
+    - enemy_boss_ch5
+    - "\u6DF1\u6E0A\u65D7\u8230"
+    - boss
+    - enemy
+    - 6240
+    - 216
+    - 288
+    - 90
+    - 8
+    - 160
+    - skill_enemy_boss
+    - loot_boss
+    - 1
+    - "\u7AE0\u8282 BOSS"
+    - 1939
+    - "\u7B2C 5 \u7AE0 BOSS"

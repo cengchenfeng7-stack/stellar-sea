@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: combo
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: combo
+  idColumn: id
+  headers:
+  - id
+  - skillId
+  - shipA
+  - shipB
+  - priority
+  - oncePerBattle
+  - description
+  rows:
+  - values:
+    - combo_anchor
+    - skill_combo_anchor
+    - ship_anchor_03
+    - ship_anchor_04
+    - 1
+    - 1
+    - "\u91CD\u9524 + \u94C1\u58C1\uFF1A\u94DC\u5899\u94C1\u58C1"
+  - values:
+    - combo_blue
+    - skill_combo_blue
+    - ship_blue_03
+    - ship_blue_04
+    - 2
+    - 1
+    - "\u6D77\u9E25 + \u82CD\u7A79\uFF1A\u9971\u548C\u7A7A\u88AD"
+  - values:
+    - combo_red
+    - skill_combo_red
+    - ship_red_03
+    - ship_red_04
+    - 1
+    - 1
+    - "\u5315\u9996 + \u8840\u9CA8\uFF1A\u53CC\u96F7\u9F50\u5C04"
+  - values:
+    - combo_green
+    - skill_combo_green
+    - ship_green_02
+    - ship_green_03
+    - 3
+    - 1
+    - "\u5FAE\u98CE + \u6668\u661F\uFF1A\u751F\u547D\u4E4B\u6F6E"

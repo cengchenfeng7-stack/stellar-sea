@@ -22,7 +22,7 @@ Windows 只做 Editor 验证；iOS 构建走 GitHub Actions 的 macOS runner，*
 
 ## 仓库
 
-- GitHub：`https://github.com/cengchenfeng7-stack/stellar-sea`（私有）
+- GitHub：`https://github.com/cengchenfeng7-stack/stellar-sea`（公开）
 - 默认分支：`main`
 - 推送即触发 iOS 构建。
 
@@ -30,8 +30,11 @@ Windows 只做 Editor 验证；iOS 构建走 GitHub Actions 的 macOS runner，*
 
 - M0 进行中。
 - 工程已从 3D URP 模板重建为干净的 Universal 2D 工程，旧的 3D 模板资产与 AI/导航等无关包已移除。
-- 代码已推送到 GitHub，iOS workflow 已实际触发过；当前停在 Unity 许可证 secrets 未配置。
-- `Config_CSV/`、`Tools/` 仍待建设；`Docs/CI.md` 与 `Docs/Install-iPhone.md` 已写。
+- `Config_CSV/`：20 张表 / 631 行初始值；`node Tools/validate_config.mjs` 全部通过。
+- `Tools/economy_sim.mjs`：30 天经济模拟，第 7/14/30 天目标全部命中，无告警。
+- `Docs/wireframes/`：14 张界面线框图（SVG）。
+- Unity 侧：存档系统（含 schema 迁移与未知字段保留）+ 配置表运行时/导入管线；EditMode 测试 10/10 通过。
+- iOS CI：Unity 许可证账号激活已跑通，Xcode 工程导出成功；未签名 IPA 打包在修路径后待验证。
 
 没有 Mac 也能玩：
 

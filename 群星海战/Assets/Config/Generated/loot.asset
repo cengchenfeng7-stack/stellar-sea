@@ -1,0 +1,917 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645c21c8d4a531047b17b4719db30750, type: 3}
+  m_Name: loot
+  m_EditorClassIdentifier: StellarSea.Data::StellarSea.Data.Config.ConfigTableAsset
+  tableName: loot
+  idColumn: lootTableId
+  headers:
+  - lootTableId
+  - chapter
+  - itemType
+  - itemId
+  - probability
+  - minQty
+  - maxQty
+  - description
+  rows:
+  - values:
+    - loot_ch1_normal
+    - 1
+    - gold
+    - gold
+    - 60
+    - 100
+    - 150
+    - "loot_ch1_normal \xB7 gold"
+  - values:
+    - loot_ch1_normal
+    - 1
+    - expBook
+    - expBook
+    - 25
+    - 1
+    - 2
+    - "loot_ch1_normal \xB7 expBook"
+  - values:
+    - loot_ch1_normal
+    - 1
+    - material
+    - material
+    - 10
+    - 1
+    - 3
+    - "loot_ch1_normal \xB7 material"
+  - values:
+    - loot_ch1_normal
+    - 1
+    - shard
+    - shard
+    - 5
+    - 1
+    - 2
+    - "loot_ch1_normal \xB7 shard"
+  - values:
+    - loot_ch1_elite
+    - 1
+    - gold
+    - gold
+    - 50
+    - 200
+    - 300
+    - "loot_ch1_elite \xB7 gold"
+  - values:
+    - loot_ch1_elite
+    - 1
+    - expBook
+    - expBook
+    - 20
+    - 2
+    - 3
+    - "loot_ch1_elite \xB7 expBook"
+  - values:
+    - loot_ch1_elite
+    - 1
+    - material
+    - material
+    - 15
+    - 3
+    - 6
+    - "loot_ch1_elite \xB7 material"
+  - values:
+    - loot_ch1_elite
+    - 1
+    - shard
+    - shard
+    - 8
+    - 3
+    - 5
+    - "loot_ch1_elite \xB7 shard"
+  - values:
+    - loot_ch1_elite
+    - 1
+    - blueprint
+    - blueprint
+    - 5
+    - 1
+    - 1
+    - "loot_ch1_elite \xB7 blueprint"
+  - values:
+    - loot_ch1_elite
+    - 1
+    - equipBox
+    - equipBox
+    - 2
+    - 1
+    - 1
+    - "loot_ch1_elite \xB7 equipBox"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - gold
+    - gold
+    - 40
+    - 500
+    - 800
+    - "loot_ch1_boss \xB7 gold"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - expBook
+    - expBook
+    - 15
+    - 5
+    - 8
+    - "loot_ch1_boss \xB7 expBook"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - material
+    - material
+    - 15
+    - 10
+    - 15
+    - "loot_ch1_boss \xB7 material"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - shard
+    - shard
+    - 12
+    - 10
+    - 15
+    - "loot_ch1_boss \xB7 shard"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - blueprint
+    - blueprint
+    - 10
+    - 2
+    - 3
+    - "loot_ch1_boss \xB7 blueprint"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - equipBox
+    - equipBox
+    - 5
+    - 1
+    - 1
+    - "loot_ch1_boss \xB7 equipBox"
+  - values:
+    - loot_ch1_boss
+    - 1
+    - captainTicket
+    - captainTicket
+    - 3
+    - 1
+    - 1
+    - "loot_ch1_boss \xB7 captainTicket"
+  - values:
+    - loot_ch2_normal
+    - 2
+    - gold
+    - gold
+    - 60
+    - 140
+    - 210
+    - "loot_ch2_normal \xB7 gold"
+  - values:
+    - loot_ch2_normal
+    - 2
+    - expBook
+    - expBook
+    - 25
+    - 1
+    - 3
+    - "loot_ch2_normal \xB7 expBook"
+  - values:
+    - loot_ch2_normal
+    - 2
+    - material
+    - material
+    - 10
+    - 1
+    - 4
+    - "loot_ch2_normal \xB7 material"
+  - values:
+    - loot_ch2_normal
+    - 2
+    - shard
+    - shard
+    - 5
+    - 1
+    - 3
+    - "loot_ch2_normal \xB7 shard"
+  - values:
+    - loot_ch2_elite
+    - 2
+    - gold
+    - gold
+    - 50
+    - 280
+    - 420
+    - "loot_ch2_elite \xB7 gold"
+  - values:
+    - loot_ch2_elite
+    - 2
+    - expBook
+    - expBook
+    - 20
+    - 3
+    - 4
+    - "loot_ch2_elite \xB7 expBook"
+  - values:
+    - loot_ch2_elite
+    - 2
+    - material
+    - material
+    - 15
+    - 4
+    - 8
+    - "loot_ch2_elite \xB7 material"
+  - values:
+    - loot_ch2_elite
+    - 2
+    - shard
+    - shard
+    - 8
+    - 4
+    - 7
+    - "loot_ch2_elite \xB7 shard"
+  - values:
+    - loot_ch2_elite
+    - 2
+    - blueprint
+    - blueprint
+    - 5
+    - 1
+    - 1
+    - "loot_ch2_elite \xB7 blueprint"
+  - values:
+    - loot_ch2_elite
+    - 2
+    - equipBox
+    - equipBox
+    - 2
+    - 1
+    - 1
+    - "loot_ch2_elite \xB7 equipBox"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - gold
+    - gold
+    - 40
+    - 700
+    - 1120
+    - "loot_ch2_boss \xB7 gold"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - expBook
+    - expBook
+    - 15
+    - 7
+    - 11
+    - "loot_ch2_boss \xB7 expBook"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - material
+    - material
+    - 15
+    - 14
+    - 21
+    - "loot_ch2_boss \xB7 material"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - shard
+    - shard
+    - 12
+    - 14
+    - 21
+    - "loot_ch2_boss \xB7 shard"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - blueprint
+    - blueprint
+    - 10
+    - 3
+    - 4
+    - "loot_ch2_boss \xB7 blueprint"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - equipBox
+    - equipBox
+    - 5
+    - 1
+    - 1
+    - "loot_ch2_boss \xB7 equipBox"
+  - values:
+    - loot_ch2_boss
+    - 2
+    - captainTicket
+    - captainTicket
+    - 3
+    - 1
+    - 1
+    - "loot_ch2_boss \xB7 captainTicket"
+  - values:
+    - loot_ch3_normal
+    - 3
+    - gold
+    - gold
+    - 60
+    - 196
+    - 294
+    - "loot_ch3_normal \xB7 gold"
+  - values:
+    - loot_ch3_normal
+    - 3
+    - expBook
+    - expBook
+    - 25
+    - 2
+    - 4
+    - "loot_ch3_normal \xB7 expBook"
+  - values:
+    - loot_ch3_normal
+    - 3
+    - material
+    - material
+    - 10
+    - 2
+    - 6
+    - "loot_ch3_normal \xB7 material"
+  - values:
+    - loot_ch3_normal
+    - 3
+    - shard
+    - shard
+    - 5
+    - 2
+    - 4
+    - "loot_ch3_normal \xB7 shard"
+  - values:
+    - loot_ch3_elite
+    - 3
+    - gold
+    - gold
+    - 50
+    - 392
+    - 588
+    - "loot_ch3_elite \xB7 gold"
+  - values:
+    - loot_ch3_elite
+    - 3
+    - expBook
+    - expBook
+    - 20
+    - 4
+    - 6
+    - "loot_ch3_elite \xB7 expBook"
+  - values:
+    - loot_ch3_elite
+    - 3
+    - material
+    - material
+    - 15
+    - 6
+    - 12
+    - "loot_ch3_elite \xB7 material"
+  - values:
+    - loot_ch3_elite
+    - 3
+    - shard
+    - shard
+    - 8
+    - 6
+    - 10
+    - "loot_ch3_elite \xB7 shard"
+  - values:
+    - loot_ch3_elite
+    - 3
+    - blueprint
+    - blueprint
+    - 5
+    - 2
+    - 2
+    - "loot_ch3_elite \xB7 blueprint"
+  - values:
+    - loot_ch3_elite
+    - 3
+    - equipBox
+    - equipBox
+    - 2
+    - 2
+    - 2
+    - "loot_ch3_elite \xB7 equipBox"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - gold
+    - gold
+    - 40
+    - 980
+    - 1568
+    - "loot_ch3_boss \xB7 gold"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - expBook
+    - expBook
+    - 15
+    - 10
+    - 16
+    - "loot_ch3_boss \xB7 expBook"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - material
+    - material
+    - 15
+    - 20
+    - 29
+    - "loot_ch3_boss \xB7 material"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - shard
+    - shard
+    - 12
+    - 20
+    - 29
+    - "loot_ch3_boss \xB7 shard"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - blueprint
+    - blueprint
+    - 10
+    - 4
+    - 6
+    - "loot_ch3_boss \xB7 blueprint"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - equipBox
+    - equipBox
+    - 5
+    - 2
+    - 2
+    - "loot_ch3_boss \xB7 equipBox"
+  - values:
+    - loot_ch3_boss
+    - 3
+    - captainTicket
+    - captainTicket
+    - 3
+    - 2
+    - 2
+    - "loot_ch3_boss \xB7 captainTicket"
+  - values:
+    - loot_ch4_normal
+    - 4
+    - gold
+    - gold
+    - 60
+    - 274
+    - 412
+    - "loot_ch4_normal \xB7 gold"
+  - values:
+    - loot_ch4_normal
+    - 4
+    - expBook
+    - expBook
+    - 25
+    - 3
+    - 5
+    - "loot_ch4_normal \xB7 expBook"
+  - values:
+    - loot_ch4_normal
+    - 4
+    - material
+    - material
+    - 10
+    - 3
+    - 8
+    - "loot_ch4_normal \xB7 material"
+  - values:
+    - loot_ch4_normal
+    - 4
+    - shard
+    - shard
+    - 5
+    - 3
+    - 5
+    - "loot_ch4_normal \xB7 shard"
+  - values:
+    - loot_ch4_elite
+    - 4
+    - gold
+    - gold
+    - 50
+    - 549
+    - 823
+    - "loot_ch4_elite \xB7 gold"
+  - values:
+    - loot_ch4_elite
+    - 4
+    - expBook
+    - expBook
+    - 20
+    - 5
+    - 8
+    - "loot_ch4_elite \xB7 expBook"
+  - values:
+    - loot_ch4_elite
+    - 4
+    - material
+    - material
+    - 15
+    - 8
+    - 16
+    - "loot_ch4_elite \xB7 material"
+  - values:
+    - loot_ch4_elite
+    - 4
+    - shard
+    - shard
+    - 8
+    - 8
+    - 14
+    - "loot_ch4_elite \xB7 shard"
+  - values:
+    - loot_ch4_elite
+    - 4
+    - blueprint
+    - blueprint
+    - 5
+    - 3
+    - 3
+    - "loot_ch4_elite \xB7 blueprint"
+  - values:
+    - loot_ch4_elite
+    - 4
+    - equipBox
+    - equipBox
+    - 2
+    - 3
+    - 3
+    - "loot_ch4_elite \xB7 equipBox"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - gold
+    - gold
+    - 40
+    - 1372
+    - 2195
+    - "loot_ch4_boss \xB7 gold"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - expBook
+    - expBook
+    - 15
+    - 14
+    - 22
+    - "loot_ch4_boss \xB7 expBook"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - material
+    - material
+    - 15
+    - 27
+    - 41
+    - "loot_ch4_boss \xB7 material"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - shard
+    - shard
+    - 12
+    - 27
+    - 41
+    - "loot_ch4_boss \xB7 shard"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - blueprint
+    - blueprint
+    - 10
+    - 5
+    - 8
+    - "loot_ch4_boss \xB7 blueprint"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - equipBox
+    - equipBox
+    - 5
+    - 3
+    - 3
+    - "loot_ch4_boss \xB7 equipBox"
+  - values:
+    - loot_ch4_boss
+    - 4
+    - captainTicket
+    - captainTicket
+    - 3
+    - 3
+    - 3
+    - "loot_ch4_boss \xB7 captainTicket"
+  - values:
+    - loot_ch5_normal
+    - 5
+    - gold
+    - gold
+    - 60
+    - 384
+    - 576
+    - "loot_ch5_normal \xB7 gold"
+  - values:
+    - loot_ch5_normal
+    - 5
+    - expBook
+    - expBook
+    - 25
+    - 4
+    - 8
+    - "loot_ch5_normal \xB7 expBook"
+  - values:
+    - loot_ch5_normal
+    - 5
+    - material
+    - material
+    - 10
+    - 4
+    - 12
+    - "loot_ch5_normal \xB7 material"
+  - values:
+    - loot_ch5_normal
+    - 5
+    - shard
+    - shard
+    - 5
+    - 4
+    - 8
+    - "loot_ch5_normal \xB7 shard"
+  - values:
+    - loot_ch5_elite
+    - 5
+    - gold
+    - gold
+    - 50
+    - 768
+    - 1152
+    - "loot_ch5_elite \xB7 gold"
+  - values:
+    - loot_ch5_elite
+    - 5
+    - expBook
+    - expBook
+    - 20
+    - 8
+    - 12
+    - "loot_ch5_elite \xB7 expBook"
+  - values:
+    - loot_ch5_elite
+    - 5
+    - material
+    - material
+    - 15
+    - 12
+    - 23
+    - "loot_ch5_elite \xB7 material"
+  - values:
+    - loot_ch5_elite
+    - 5
+    - shard
+    - shard
+    - 8
+    - 12
+    - 19
+    - "loot_ch5_elite \xB7 shard"
+  - values:
+    - loot_ch5_elite
+    - 5
+    - blueprint
+    - blueprint
+    - 5
+    - 4
+    - 4
+    - "loot_ch5_elite \xB7 blueprint"
+  - values:
+    - loot_ch5_elite
+    - 5
+    - equipBox
+    - equipBox
+    - 2
+    - 4
+    - 4
+    - "loot_ch5_elite \xB7 equipBox"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - gold
+    - gold
+    - 40
+    - 1921
+    - 3073
+    - "loot_ch5_boss \xB7 gold"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - expBook
+    - expBook
+    - 15
+    - 19
+    - 31
+    - "loot_ch5_boss \xB7 expBook"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - material
+    - material
+    - 15
+    - 38
+    - 58
+    - "loot_ch5_boss \xB7 material"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - shard
+    - shard
+    - 12
+    - 38
+    - 58
+    - "loot_ch5_boss \xB7 shard"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - blueprint
+    - blueprint
+    - 10
+    - 8
+    - 12
+    - "loot_ch5_boss \xB7 blueprint"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - equipBox
+    - equipBox
+    - 5
+    - 4
+    - 4
+    - "loot_ch5_boss \xB7 equipBox"
+  - values:
+    - loot_ch5_boss
+    - 5
+    - captainTicket
+    - captainTicket
+    - 3
+    - 4
+    - 4
+    - "loot_ch5_boss \xB7 captainTicket"
+  - values:
+    - loot_treasure
+    - 1
+    - gold
+    - gold
+    - 40
+    - 300
+    - 500
+    - "loot_treasure \xB7 gold"
+  - values:
+    - loot_treasure
+    - 1
+    - material
+    - material
+    - 20
+    - 5
+    - 10
+    - "loot_treasure \xB7 material"
+  - values:
+    - loot_treasure
+    - 1
+    - shard
+    - shard
+    - 15
+    - 5
+    - 10
+    - "loot_treasure \xB7 shard"
+  - values:
+    - loot_treasure
+    - 1
+    - blueprint
+    - blueprint
+    - 15
+    - 1
+    - 2
+    - "loot_treasure \xB7 blueprint"
+  - values:
+    - loot_treasure
+    - 1
+    - equipBox
+    - equipBox
+    - 10
+    - 1
+    - 1
+    - "loot_treasure \xB7 equipBox"
+  - values:
+    - loot_event
+    - 1
+    - gold
+    - gold
+    - 50
+    - 150
+    - 250
+    - "loot_event \xB7 gold"
+  - values:
+    - loot_event
+    - 1
+    - expBook
+    - expBook
+    - 20
+    - 2
+    - 3
+    - "loot_event \xB7 expBook"
+  - values:
+    - loot_event
+    - 1
+    - material
+    - material
+    - 20
+    - 2
+    - 5
+    - "loot_event \xB7 material"
+  - values:
+    - loot_event
+    - 1
+    - shard
+    - shard
+    - 10
+    - 2
+    - 4
+    - "loot_event \xB7 shard"
+  - values:
+    - loot_enemy
+    - 1
+    - gold
+    - gold
+    - 70
+    - 30
+    - 60
+    - "loot_enemy \xB7 gold"
+  - values:
+    - loot_enemy
+    - 1
+    - material
+    - material
+    - 30
+    - 1
+    - 2
+    - "loot_enemy \xB7 material"
+  - values:
+    - loot_boss
+    - 5
+    - gold
+    - gold
+    - 40
+    - 3073
+    - 4610
+    - "loot_boss \xB7 gold"
+  - values:
+    - loot_boss
+    - 5
+    - shard
+    - shard
+    - 30
+    - 77
+    - 115
+    - "loot_boss \xB7 shard"
+  - values:
+    - loot_boss
+    - 5
+    - equipBox
+    - equipBox
+    - 30
+    - 4
+    - 8
+    - "loot_boss \xB7 equipBox"
